@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.14pt}
+\beamer@sectionintoc {1}{Background}{3}{0}{1}
+\beamer@sectionintoc {2}{DE/EDA-EIG}{6}{0}{2}
+\beamer@sectionintoc {3}{Experiment results}{9}{0}{3}
+\beamer@sectionintoc {4}{Conclusions}{15}{0}{4}
