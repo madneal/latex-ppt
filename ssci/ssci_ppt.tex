@@ -82,7 +82,7 @@
     \end{itemize}
     \end{column}
     \end{columns}
-    
+
     \end{frame}
 
     \begin{frame}
@@ -103,130 +103,128 @@
     \item $Q$ is a new solution set sampled from the probabilistic model.
     \end{itemize}
     \end{column}
-    \end{columns}   
+    \end{columns}
     \end{frame}
 
 
-    \section{DE/EDA-EIG}
+    \section{EDA/DE-EIG}
     \begin{frame}
-    \frametitle{mutation scheme}
-    \begin{figure}
-    \centering
-    \includegraphics[width=0.3\columnwidth]{mutation1.png}
-    \caption{The schema of the mutation}
-    \end{figure}
-    \begin{equation}
-    \label{DE}
-    X=X_{r_1}+rand\cdot(X_{r_2}-X_{r_3})+F\cdot(X_{r_2}-X_{r_3})
-    \end{equation}
-
-    \begin{itemize}
-    \item $X_{r_1}$, $X_{r_2}$, $X_{r_3}$ are sampled randomly from the population
-    \item $r_1$, $r_2$ and $r_3$ are mutually exclusive integers selected randomly from 1 to $NP$
-    \item $F$ is the scaling factor
-    \end{itemize}
+    \frametitle{DE-EIG}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+        \begin{figure}[H]
+            \graphicspath{{figs/}}
+            \includegraphics[width=0.8\textwidth]{de-eig.png}
+            \caption{The algorithm framework of DE-EIG}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+    As traditional DE operates crossover in the original coordinate, it is inevitable to lose some statistics information. DE-EIG based on the eigenvectors makes the crossover rotationally invariant by transform the coordinate system of the individuals in the population.
+    \end{column}
+    \end{columns}
     \end{frame}
-    \begin{figure}
-    \centering
-    \includegraphics[width=0.5\columnwidth]{alg2.jpg}
-    \caption{The framework of DES}
-    \end{figure}
 
     \begin{frame}
-    \begin{figure}
-    \centering
-    \includegraphics[width=0.5\columnwidth]{alg3.jpg}
-    \caption{The framework of DES-RM-MEDA}
-    \end{figure}
+    \frametitle{DE/EDA}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+        \begin{figure}[H]
+            \graphicspath{{figs/}}
+            \includegraphics[width=0.8\textwidth]{deeda.png}
+            \caption{The algorithm framework of DE/EDA}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+    CRP is utilized to control the offspring generation by DE or EDA. DE/EDA utilized the global information extracted by EDA and the differential information exploited by DE to obtain promising solutions.
+    \end{column}
+    \end{columns}
     \end{frame}
+
+    \begin{frame}
+    \frametitle{DE/EDA-EIG}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+        \begin{figure}[H]
+            \graphicspath{{figs/}}
+            \includegraphics[width=0.8\textwidth]{deeda-eig.png}
+            \caption{The algorithm framework of DE/EDA-EIG}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+    Based on the framework of DE/EDA, DE-EIG is imported to improve the sampling in the algorithm. For Converage($\theta, G, G_e$) at line 16, it is essential to judge whether to operate expensive local search.
+    \end{column}
+    \end{columns}
+    \end{frame}
+
+
+
     \section{Experiment results}
     \begin{frame}
-    \frametitle{Experimental settings}
-    The 10 test instances, $F1-F10$, introduced in RM-MEDA are used as the benchmark problems.
-    \begin{itemize}
-    \item \emph{Initialization of the population}: The initial population in algorithms is randomly generated.
-    \item \emph{The number of new trial solutions generated}: 100 for instances ($F3$, $F7$, $F9$), and 200 for other instances.
-    \item \emph{The number of decision variables}: 30
-    \item \emph{The number of clusters}: 5
-    \item\emph{The scaling factor $F$}: 0.4
-    \item\emph{The number of runs}: 30
-    \item\emph{The number of generation}: 100 for instances ($F1$, $F2$, $F5$, $F6$), 200 for instances $F4$ and $F8$, and 1000 for instances $F3$, $F7$ and $F9$.
+    \frametitle{Compared algorithms and \par Experimental setting}
+    In this paper, EDA/DE-EIG is compared with JADE and DE/EDA on the first 13 test instances form YYL test instances. The global minimum objective value is 0 for all the test instances.
+
+    \begin{itemize}\small
+    \setlength\itemsep{0em}
+    \item The dimension of the population is 30. All algorithms are run independently 50 times and stopped after 450,000 function evaluations.
+    \item JADE: The parameters $N=150, p=0.05, c=0.1, F=0.5$ and $CR=0.9$.
+    \item DE/EDA: The parameters are set as: $N=150, F=0.5$ and $CRP=0.9$.
+    \item EDA/DE-EIG: The $CRP$ is 0.5; $F$ is set to be 0.5; $CR$ is set to be 0.6; the parameter $p$ to control the probability to operate crossover two coordinate systems is 0.5; the convergence threshold $\theta=0.1$; the size of the population $N$ is 150. For the parameter setting of expensive local search, it is same as that in EDA/LS.
     \end{itemize}
     \end{frame}
 
     \begin{frame}
-    \frametitle{The sensitivity of the F}
-    \begin{figure}[htbp]
-    \centering
-    \subfigure[F1-F5]{\includegraphics[ width=4cm, height=3.2cm]{figs/f1_f5.eps}}
-    \subfigure[F6-F9]{\includegraphics[ width=4cm, height=3.2cm]{figs/f6_f9.eps}}
-    \subfigure[F10]{\includegraphics[ width=4cm, height=3.2cm]{figs/f10.eps}}
+    \begin{figure}[H]
+        \graphicspath{{figs/}}
+        \includegraphics[width=0.8\textwidth]{tab1.jpg}
     \end{figure}
     \end{frame}
 
     \begin{frame}
-    \frametitle{Wilcoxon's rank sum test}
     \begin{figure}
     \centering
-    \includegraphics[width=0.6\columnwidth]{f_performance.jpg}
-    \caption{The compariosn of RM-MEAD and RM-MEDA-DES with different settings of F}
+    \graphicspath{{figs/}}
+    \subfigure[$f$1]{\includegraphics[ width=0.25\textwidth]{f1.eps}}
+    \subfigure[$f2$]{\includegraphics[ width=0.25\textwidth]{f2.eps}}
+    \subfigure[$f3$]{\includegraphics[ width=0.25\textwidth]{f3.eps}}
+    \subfigure[$f4$]{\includegraphics[ width=0.25\textwidth]{f4.eps}}
+    \subfigure[$f5$]{\includegraphics[ width=0.25\textwidth]{f5.eps}}
+    \subfigure[$f7$]{\includegraphics[ width=0.25\textwidth]{f7.eps}}
+    \caption{The mean function value versus on $f1-f7$ except $f6$.}
+     \label{fig1}
     \end{figure}
     \end{frame}
 
     \begin{frame}
-    \frametitle{Comparison study}
-    \begin{figure}[htbp]
-    \centering
-    \subfigure[F1]{\includegraphics[ width=3.7cm, height=2.8cm]{figs/f1_igd.eps}}
-    \subfigure[F2]{\includegraphics[ width=3.7cm, height=2.8cm]{figs/f2_igd.eps}}
-    \subfigure[F3]{\includegraphics[ width=3.7cm, height=2.8cm]{figs/f3_igd.eps}}
-    \subfigure[F4]{\includegraphics[ width=3.7cm, height=2.8cm]{figs/f4_igd.eps}}
-    \subfigure[F5]{\includegraphics[ width=3.7cm, height=2.8cm]{figs/f5_igd.eps}}
-    \caption{The dashed line is RM-MEDA, and the solid line is RM-MEDA-DES}
-    \end{figure}
-    \end{frame}
-
-    \begin{frame}
-    \frametitle{Comparison study}
-    \begin{figure}[htbp]
-    \centering
-    \subfigure[F6]{\includegraphics[ width=3.7cm, height=2.8cm]{figs/f6_igd.eps}}
-    \subfigure[F7]{\includegraphics[ width=3.7cm, height=2.8cm]{figs/f7_igd.eps}}
-    \subfigure[F8]{\includegraphics[ width=3.7cm, height=2.8cm]{figs/f8_igd.eps}}
-    \subfigure[F9]{\includegraphics[ width=3.7cm, height=2.8cm]{figs/f9_igd.eps}}
-    \subfigure[F10]{\includegraphics[ width=3.7cm, height=2.8cm]{figs/f10_igd.eps}}
-    \caption[small]{The dashed line is RM-MEDA, and the solid line is RM-MEDA-DES}
-    \end{figure}
-    \end{frame}
-
-    \begin{frame}
-    \frametitle{Comparison study}
     \begin{figure}
     \centering
-    \includegraphics[width=1\columnwidth]{tab1.png}
+    \graphicspath{{figs/}}
+    \subfigure[$f8$]{\includegraphics[ width=0.25\textwidth]{f8.eps}}
+    \subfigure[$f9$]{\includegraphics[ width=0.25\textwidth]{f9.eps}}
+    \subfigure[$f10$]{\includegraphics[ width=0.25\textwidth]{f10.eps}}
+    \subfigure[$f11$]{\includegraphics[ width=0.25\textwidth]{f11.eps}}
+    \subfigure[$f12$]{\includegraphics[ width=0.25\textwidth]{f12.eps}}
+    \subfigure[$f13$]{\includegraphics[ width=0.25\textwidth]{f13.eps}}
+    \caption{The mean function value versus on $f8-f13$}
+     \label{fig1}
     \end{figure}
     \end{frame}
-    \section{Conclusions}
-        \begin{frame}
-        \frametitle{Conclusions}
-        \textbf{Main contributions}
-        \begin{itemize}
-        \item A new sampling strategy for multiobjective estimation of distribution algorithm.
-        \item Addressing to the issue of the extension scale setting in RM-MEDA.
-        \end{itemize}
-        This paper proposed a DES scheme to generate points in the latent space. The basic idea is to project the parent solutions
-        into the latent space, and use a DE mutation operator to generate new points in the latent space based on the projected points, and finally map the points back to
-        to the decision space added with Gaussian noise to generate offspring solutions. The DES is implemented into RM-MEDA to improve the performance. The results are impressive.
-        \end{frame}
 
-        \begin{frame}
-        \frametitle{The future work}
-       	\begin{itemize}
-       	\item To exploit the deeper application of the DES. There is the possibility to apply the DES to other MOEAs.
-       	\item It is valuable to explore the hybrid menthod of the DE and EDA. Though DE/EDA has been proposed, it is still interesting to explore the potential of this method.
-       	And the arrange of the resources of DE and EDA is also an interesting topic.
-       	\end{itemize}
-       \end{frame}
+    \section{Conclusions and future work}
+    \begin{frame}
+    \frametitle{Conclusions}
+    DE/EDA is a promising method that utilizes both the the global and local information for global optimization. However, the potential improvement of the performance of this algorithm has not been exploited furthermore.
+    \par
+     In this paper, an improved DE, DE-EIG, is imported to combine with EDA, bringing an impressive improvement on the performance. DE-EIG is beneficial to utilize the statistics information of the population to accelerate the convergence. And expensive local search is applied to improve the performance further. 
+     
+     The experimental results have shown the distinct advantages of the proposed method, named as EDA/DE-EIG, in comparison with two state-of-art algorithms JADE and DE/EDA.
+    \end{frame}
+    
+    \begin{frame}
+    \frametitle{Future work}
+    The results reported in this paper is preliminary and there are several ways to improve the algorithm performance. Firstly, the algorithm framework of EDA/DE-EIG can be simplified. Secondly, it is worth to investigate how to allocate the computational resources to both DE-EIG and EDA.
+    \end{frame}
+    
+
     \section*{thx}
         \begin{frame}
         \begin{center}
