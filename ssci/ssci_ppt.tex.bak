@@ -107,43 +107,123 @@
     \end{frame}
 
 
-    \section{DE/EDA-EIG}
+    \section{EDA/DE-EIG}
     \begin{frame}
     \frametitle{DE-EIG}
     \begin{columns}
         \begin{column}{0.5\textwidth}
         \begin{figure}[H]
             \graphicspath{{figs/}}
-            \includegraphics[width=0.9\textwidth]{de-eig.png}
-            \caption{The algorithm framework of DE}
+            \includegraphics[width=0.8\textwidth]{de-eig.png}
+            \caption{The algorithm framework of DE-EIG}
         \end{figure}
     \end{column}
     \begin{column}{0.5\textwidth}
-    \begin{itemize}\small
-    \setlength\itemsep{0em}
-    \item $t$ is the generation counter.
-    \item $Pop(t)=\{x^1,x^2, \cdots x^N\}$ is the population at generation $t$.
-    \item $Q$ is a new solution set sampled from the probabilistic model.
-    \end{itemize}
+    As traditional DE operates crossover in the original coordinate, it is inevitable to lose some statistics information. DE-EIG based on the eigenvectors makes the crossover rotationally invariant by transform the coordinate system of the individuals in the population.
     \end{column}
     \end{columns}
     \end{frame}
-    
+
+    \begin{frame}
+    \frametitle{DE/EDA}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+        \begin{figure}[H]
+            \graphicspath{{figs/}}
+            \includegraphics[width=0.8\textwidth]{deeda.png}
+            \caption{The algorithm framework of DE/EDA}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+    CRP is utilized to control the offspring generation by DE or EDA. DE/EDA utilized the global information extracted by EDA and the differential information exploited by DE to obtain promising solutions.
+    \end{column}
+    \end{columns}
+    \end{frame}
+
+    \begin{frame}
+    \frametitle{DE/EDA-EIG}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+        \begin{figure}[H]
+            \graphicspath{{figs/}}
+            \includegraphics[width=0.8\textwidth]{deeda-eig.png}
+            \caption{The algorithm framework of DE/EDA-EIG}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+    Based on the framework of DE/EDA, DE-EIG is imported to improve the sampling in the algorithm. For Converage($\theta, G, G_e$) at line 16, it is essential to judge whether to operate expensive local search.
+    \end{column}
+    \end{columns}
+    \end{frame}
+
 
 
     \section{Experiment results}
+    \begin{frame}
+    \frametitle{Compared algorithms and \par experimental setting}
+    In this paper, EDA/DE-EIG is compared with JADE and DE/EDA on the first 13 test instances form YYL test instances. The global minimum objective value is 0 for all the test instances.
 
+    \begin{itemize}\small
+    \setlength\itemsep{0em}
+    \item The dimension of the population is 30. All algorithms are run independently 50 times and stopped after 450,000 function evaluations.
+    \item JADE: The parameters $N=150, p=0.05, c=0.1, F=0.5$ and $CR=0.9$.
+    \item DE/EDA: The parameters are set as: $N=150, F=0.5$ and $CRP=0.9$.
+    \item EDA/DE-EIG: The $CRP$ is 0.5; $F$ is set to be 0.5; $CR$ is set to be 0.6; the parameter $p$ to control the probability to operate crossover two coordinate systems is 0.5; the convergence threshold $\theta=0.1$; the size of the population $N$ is 150. For the parameter setting of expensive local search, it is same as that in EDA/LS.
+    \end{itemize}
+    \end{frame}
 
+    \begin{frame}
+    \begin{figure}[H]
+        \graphicspath{{figs/}}
+        \includegraphics[width=0.8\textwidth]{tab1.jpg}
+    \end{figure}
+    \end{frame}
 
+    \begin{frame}
+    \begin{figure}
+    \centering
+    \graphicspath{{figs/}}
+    \subfigure[$f$1]{\includegraphics[ width=0.25\textwidth]{f1.eps}}
+    \subfigure[$f2$]{\includegraphics[ width=0.25\textwidth]{f2.eps}}
+    \subfigure[$f3$]{\includegraphics[ width=0.25\textwidth]{f3.eps}}
+    \subfigure[$f4$]{\includegraphics[ width=0.25\textwidth]{f4.eps}}
+    \subfigure[$f5$]{\includegraphics[ width=0.25\textwidth]{f5.eps}}
+    \subfigure[$f7$]{\includegraphics[ width=0.25\textwidth]{f7.eps}}
+    \caption{The mean function value versus on $f1-f7$ except $f6$.}
+     \label{fig1}
+    \end{figure}
+    \end{frame}
 
+    \begin{frame}
+    \begin{figure}
+    \centering
+    \graphicspath{{figs/}}
+    \subfigure[$f8$]{\includegraphics[ width=0.25\textwidth]{f8.eps}}
+    \subfigure[$f9$]{\includegraphics[ width=0.25\textwidth]{f9.eps}}
+    \subfigure[$f10$]{\includegraphics[ width=0.25\textwidth]{f10.eps}}
+    \subfigure[$f11$]{\includegraphics[ width=0.25\textwidth]{f11.eps}}
+    \subfigure[$f12$]{\includegraphics[ width=0.25\textwidth]{f12.eps}}
+    \subfigure[$f13$]{\includegraphics[ width=0.25\textwidth]{f13.eps}}
+    \caption{The mean function value versus on $f8-f13$}
+     \label{fig1}
+    \end{figure}
+    \end{frame}
 
+    \section{Conclusions and future work}
+    \begin{frame}
+    \frametitle{Conclusions}
+    DE/EDA is a promising method that utilizes both the the global and local information for global optimization. However, the potential improvement of the performance of this algorithm has not been exploited furthermore.
+    \par
+     In this paper, an improved DE, DE-EIG, is imported to combine with EDA, bringing an impressive improvement on the performance. DE-EIG is beneficial to utilize the statistics information of the population to accelerate the convergence. And expensive local search is applied to improve the performance further.
 
+     The experimental results have shown the distinct advantages of the proposed method, named as EDA/DE-EIG, in comparison with two state-of-art algorithms JADE and DE/EDA.
+    \end{frame}
 
+    \begin{frame}
+    \frametitle{Future work}
+    The results reported in this paper is preliminary and there are several ways to improve the algorithm performance. Firstly, the algorithm framework of EDA/DE-EIG can be simplified. Secondly, it is worth to investigate how to allocate the computational resources to both DE-EIG and EDA.
+    \end{frame}
 
-
-
-
-    \section{Conclusions}
 
     \section*{thx}
         \begin{frame}
