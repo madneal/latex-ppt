@@ -28,7 +28,7 @@
 
 \begin{document}
     \title[SSCI]{A Hybrid Estimation of Distribution Algorithm with Differential Evolution for Global Optimization}
-    \author{Bing Dong}
+    \author{Bing Dong, Aimin Zhou, Guixu Zhang}
     \institute[East China Normal University]{East China Normal University, Shanghai, China}
     \logo{\includegraphics[height=0.5cm,width=3.0cm]{university-logo-ecnu}\vspace{230pt}}
     \date{\today}
@@ -42,6 +42,11 @@
     \end{frame}
 
     \section{Background}
+    \begin{frame}
+      \frametitle{Outline for Section \thesection}
+      \tableofcontents[currentsection]
+    \end{frame}
+
     \begin{frame}
     \frametitle{Definition}
     The box-constrained continuous global optimization can be stated in the following:
@@ -109,6 +114,11 @@
 
     \section{EDA/DE-EIG}
     \begin{frame}
+      \frametitle{Outline for Section \thesection}
+      \tableofcontents[currentsection]
+    \end{frame}
+
+    \begin{frame}
     \frametitle{DE-EIG}
     \begin{columns}
         \begin{column}{0.5\textwidth}
@@ -160,6 +170,11 @@
 
     \section{Experiment results}
     \begin{frame}
+      \frametitle{Outline for Section \thesection}
+      \tableofcontents[currentsection]
+    \end{frame}
+
+    \begin{frame}
     \frametitle{Compared algorithms and \par experimental setting}
     In this paper, EDA/DE-EIG is compared with JADE and DE/EDA on the first 13 test instances form YYL test instances. The global minimum objective value is 0 for all the test instances.
 
@@ -210,6 +225,11 @@
     \end{frame}
 
     \section{Conclusions and future work}
+    \begin{frame}
+      \frametitle{Outline for Section \thesection}
+      \tableofcontents[currentsection]
+    \end{frame}
+
     \begin{frame}
     \frametitle{Conclusions}
     DE/EDA is a promising method that utilizes both the the global and local information for global optimization. However, the potential improvement of the performance of this algorithm has not been exploited furthermore.
