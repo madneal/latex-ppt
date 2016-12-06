@@ -68,7 +68,7 @@
 
     \begin{frame}
     \frametitle{Differential Evolution(DE)}
-    
+
     DE is a simple but powerful optimization algorithm. Classical DE algorithm consists of three steps:
     \begin{itemize}
     \item mutation: Utilize mutation operator to generate mutant vector.
@@ -156,8 +156,8 @@
 
     \begin{frame}
     \frametitle{DE/EDA}
-    DE/EDA is a algorithm combining DE and EDA. 
-    
+    DE/EDA is a algorithm combining DE and EDA.
+
     Its main work:
     \begin{itemize}
     \item combine the differential information from DE and global information from EDA
@@ -178,9 +178,9 @@
     \end{frame}
 
     \begin{frame}
-    \frametitle{DE/EDA-EIG}
-    Based on the framework of DE/EDA, we propose DE/EDA-EIG.
-    
+    \frametitle{EDA/DE-EIG}
+    Based on the framework of DE/EDA, we propose EDA/DE-EIG.
+
     Our thoughts:
     \begin{enumerate}
     \item Import DE-EIG to improve the sampling of EDA.
@@ -189,7 +189,7 @@
     \end{enumerate}
 
     \end{frame}
-    
+
     \begin{frame}
     \frametitle{Algorithm Framework}
 %    \begin{columns}
@@ -216,7 +216,7 @@
 
     \begin{frame}
     \frametitle{Compared algorithms and \par experimental setting}
-    In this paper, EDA/DE-EIG is compared with JADE and DE/EDA on the first 13 test instances form YYL test instances. 
+    In this paper, EDA/DE-EIG is compared with JADE and DE/EDA on the first 13 test instances form YYL test instances.
 
     \begin{itemize}\small
     \setlength\itemsep{0em}
@@ -225,7 +225,7 @@
     \item DE/EDA: $N=150, F=0.5$ and $CRP=0.9$.
     \item EDA/DE-EIG: $N=150, CRP=0.5, f=0.5, CR = 0.6, P=0.5, \theta=0.1$.
     \end{itemize}
-    
+
     All the algorithms are implemented by Matlab and executed at the same computer.
     \end{frame}
 
@@ -235,14 +235,14 @@
         \includegraphics[width=0.8\textwidth]{tab1-1.jpg}
     \end{figure}
     \end{frame}
-    
+
     \begin{frame}
     \begin{figure}[H]
         \graphicspath{{figs/}}
         \includegraphics[width=0.8\textwidth]{tab1-2.jpg}
     \end{figure}
     \end{frame}
-    
+
     \begin{frame}
     \begin{figure}[H]
         \graphicspath{{figs/}}
@@ -279,7 +279,7 @@
      \label{fig2}
     \end{figure}
     \end{frame}
-    
+
     \begin{frame}
     According to figure~\ref{fig1} and figure~\ref{fig2}, the following conclusions are obtained:
     \begin{enumerate}
@@ -287,7 +287,7 @@
     \item better than DE/EDA except $f7$ and $f8$
     \item has a similar performance in comparison with JADE
     \end{enumerate}
-    
+
     \end{frame}
 
     \section{Conclusions and future work}
