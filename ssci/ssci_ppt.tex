@@ -133,50 +133,77 @@
 
     \begin{frame}
     \frametitle{DE-EIG}
-    \begin{columns}
-        \begin{column}{0.5\textwidth}
-        \begin{figure}[H]
-            \graphicspath{{figs/}}
-            \includegraphics[width=0.8\textwidth]{de-eig.png}
-            \caption{The algorithm framework of DE-EIG}
-        \end{figure}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-    As traditional DE operates crossover in the original coordinate, it is inevitable to lose some statistics information. DE-EIG based on the eigenvectors makes the crossover rotationally invariant by transform the coordinate system of the individuals in the population.
-    \end{column}
-    \end{columns}
+    DE-EIG is novel DE which utilize eigenvector to rotate the original coordinate system. It is significant to extract the statistical information form the population.
+    \begin{block}{Crucial work:}
+    \begin{itemize}
+    \item crossover in a rotated coordinate system
+    \item utilize a appropriate parameter to control the crossover in the original coordinate system or the rotated coordinate system
+    \end{itemize}
+    \end{block}
+%    \begin{columns}
+%        \begin{column}{0.5\textwidth}
+%        \begin{figure}[H]
+%            \graphicspath{{figs/}}
+%            \includegraphics[width=0.8\textwidth]{de-eig.png}
+%            \caption{The algorithm framework of DE-EIG}
+%        \end{figure}
+%    \end{column}
+%    \begin{column}{0.5\textwidth}
+%    As traditional DE operates crossover in the original coordinate, it is inevitable to lose some statistics information. DE-EIG based on the eigenvectors makes the crossover rotationally invariant by transform the coordinate system of the individuals in the population.
+%    \end{column}
+%    \end{columns}
     \end{frame}
 
     \begin{frame}
     \frametitle{DE/EDA}
-    \begin{columns}
-        \begin{column}{0.5\textwidth}
-        \begin{figure}[H]
-            \graphicspath{{figs/}}
-            \includegraphics[width=0.8\textwidth]{deeda.png}
-            \caption{The algorithm framework of DE/EDA}
-        \end{figure}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-    CRP is utilized to control the offspring generation by DE or EDA. DE/EDA utilized the global information extracted by EDA and the differential information exploited by DE to obtain promising solutions.
-    \end{column}
-    \end{columns}
+    DE/EDA is a algorithm combining DE and EDA. 
+    
+    Its main work:
+    \begin{itemize}
+    \item combine the differential information from DE and global information from EDA
+    \item make a parameter to control the sampling of EDA
+    \end{itemize}
+%    \begin{columns}
+%        \begin{column}{0.5\textwidth}
+%        \begin{figure}[H]
+%            \graphicspath{{figs/}}
+%            \includegraphics[width=0.8\textwidth]{deeda.png}
+%            \caption{The algorithm framework of DE/EDA}
+%        \end{figure}
+%    \end{column}
+%    \begin{column}{0.5\textwidth}
+%    CRP is utilized to control the offspring generation by DE or EDA. DE/EDA utilized the global information extracted by EDA and the differential information exploited by DE to obtain promising solutions.
+%    \end{column}
+%    \end{columns}
     \end{frame}
 
     \begin{frame}
     \frametitle{DE/EDA-EIG}
-    \begin{columns}
-        \begin{column}{0.5\textwidth}
-        \begin{figure}[H]
-            \graphicspath{{figs/}}
-            \includegraphics[width=0.8\textwidth]{deeda-eig.png}
-            \caption{The algorithm framework of DE/EDA-EIG}
-        \end{figure}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-    Based on the framework of DE/EDA, DE-EIG is imported to improve the sampling in the algorithm. For Converage($\theta, G, G_e$) at line 16, it is essential to judge whether to operate expensive local search.
-    \end{column}
-    \end{columns}
+    Based on the framework of DE/EDA, we propose DE/EDA-EIG.
+    
+    Our thoughts:
+    \begin{enumerate}
+    \item Import DE-EIG to improve the sampling of EDA.
+    \item Utilize a random parameter to control the resource allocations of DE-EIG and EDA.
+    \item Expensive local search is applied to refine the solutions further more.
+    \end{enumerate}
+
+    \end{frame}
+    
+    \begin{frame}
+    \frametitle{Algorithm Framework}
+%    \begin{columns}
+%    \begin{column}{0.5\textwidth}
+    \begin{figure}[H]
+    \graphicspath{{figs/}}
+    \includegraphics[width=0.4\textwidth]{deeda-eig.png}
+    \caption{The algorithm framework of EDA/DE-EIG}
+    \end{figure}
+%    \end{column}
+%    \begin{column}{0.5\textwidth}
+%    Based on the framework of DE/EDA, DE-EIG is imported to improve the sampling in the algorithm. For Converage($\theta, G, G_e$) at line 16, it is essential to judge whether to operate expensive local search.
+%    \end{column}
+%    \end{columns}
     \end{frame}
 
 
@@ -189,21 +216,37 @@
 
     \begin{frame}
     \frametitle{Compared algorithms and \par experimental setting}
-    In this paper, EDA/DE-EIG is compared with JADE and DE/EDA on the first 13 test instances form YYL test instances. The global minimum objective value is 0 for all the test instances.
+    In this paper, EDA/DE-EIG is compared with JADE and DE/EDA on the first 13 test instances form YYL test instances. 
 
     \begin{itemize}\small
     \setlength\itemsep{0em}
     \item The dimension of the population is 30. All algorithms are run independently 50 times and stopped after 450,000 function evaluations.
-    \item JADE: The parameters $N=150, p=0.05, c=0.1, F=0.5$ and $CR=0.9$.
-    \item DE/EDA: The parameters are set as: $N=150, F=0.5$ and $CRP=0.9$.
-    \item EDA/DE-EIG: The $CRP$ is 0.5; $F$ is set to be 0.5; $CR$ is set to be 0.6; the parameter $p$ to control the probability to operate crossover two coordinate systems is 0.5; the convergence threshold $\theta=0.1$; the size of the population $N$ is 150. For the parameter setting of expensive local search, it is same as that in EDA/LS.
+    \item JADE: $N=150, p=0.05, c=0.1, F=0.5$ and $CR=0.9$.
+    \item DE/EDA: $N=150, F=0.5$ and $CRP=0.9$.
+    \item EDA/DE-EIG: $N=150, CRP=0.5, f=0.5, CR = 0.6, P=0.5, \theta=0.1$.
     \end{itemize}
+    
+    All the algorithms are implemented by Matlab and executed at the same computer.
     \end{frame}
 
     \begin{frame}
     \begin{figure}[H]
         \graphicspath{{figs/}}
-        \includegraphics[width=0.8\textwidth]{tab1.jpg}
+        \includegraphics[width=0.8\textwidth]{tab1-1.jpg}
+    \end{figure}
+    \end{frame}
+    
+    \begin{frame}
+    \begin{figure}[H]
+        \graphicspath{{figs/}}
+        \includegraphics[width=0.8\textwidth]{tab1-2.jpg}
+    \end{figure}
+    \end{frame}
+    
+    \begin{frame}
+    \begin{figure}[H]
+        \graphicspath{{figs/}}
+        \includegraphics[width=0.8\textwidth]{tab1-3.jpg}
     \end{figure}
     \end{frame}
 
@@ -233,8 +276,18 @@
     \subfigure[$f12$]{\includegraphics[ width=0.25\textwidth]{f12.eps}}
     \subfigure[$f13$]{\includegraphics[ width=0.25\textwidth]{f13.eps}}
     \caption{The mean function value versus on $f8-f13$}
-     \label{fig1}
+     \label{fig2}
     \end{figure}
+    \end{frame}
+    
+    \begin{frame}
+    According to figure~\ref{fig1} and figure~\ref{fig2}, the following conclusions are obtained:
+    \begin{enumerate}
+    \item obtain best results on 8 out of 12 test instances
+    \item better than DE/EDA except $f7$ and $f8$
+    \item has a similar performance in comparison with JADE
+    \end{enumerate}
+    
     \end{frame}
 
     \section{Conclusions and future work}
@@ -245,16 +298,26 @@
 
     \begin{frame}
     \frametitle{Conclusions}
-    DE/EDA is a promising method that utilizes both the the global and local information for global optimization. However, the potential improvement of the performance of this algorithm has not been exploited furthermore.
-    \par
-     In this paper, an improved DE, DE-EIG, is imported to combine with EDA, bringing an impressive improvement on the performance. DE-EIG is beneficial to utilize the statistics information of the population to accelerate the convergence. And expensive local search is applied to improve the performance further.
-
-     The experimental results have shown the distinct advantages of the proposed method, named as EDA/DE-EIG, in comparison with two state-of-art algorithms JADE and DE/EDA.
+    \begin{enumerate}
+    \item DE/EDA is a promising algorithm framework utilizing global and local information.
+    \item DE-EIG is significant to improve the sampling.
+    \item EDA/DE-EIG has a impressive performance comparing with JADE and DE/EDA.
+    \end{enumerate}
+%    DE/EDA is a promising method that utilizes both the the global and local information for global optimization. However, the potential improvement of the performance of this algorithm has not been exploited furthermore.
+%    \par
+%     In this paper, an improved DE, DE-EIG, is imported to combine with EDA, bringing an impressive improvement on the performance. DE-EIG is beneficial to utilize the statistics information of the population to accelerate the convergence. And expensive local search is applied to improve the performance further.
+%
+%     The experimental results have shown the distinct advantages of the proposed method, named as EDA/DE-EIG, in comparison with two state-of-art algorithms JADE and DE/EDA.
     \end{frame}
 
     \begin{frame}
     \frametitle{Future work}
-    The results reported in this paper is preliminary and there are several ways to improve the algorithm performance. Firstly, the algorithm framework of EDA/DE-EIG can be simplified. Secondly, it is worth to investigate how to allocate the computational resources to both DE-EIG and EDA.
+    The results reported in this paper is preliminary and there are several ways to improve the algorithm performance. The future work includes:
+    \begin{itemize}
+    \item simplify the algorithm framework of EDA/DE-EIG
+    \item investigate the resources allocation of DE-EIG and EDA
+    \end{itemize}
+%     Firstly, the algorithm framework of EDA/DE-EIG can be simplified. Secondly, it is worth to investigate how to allocate the computational resources to both DE-EIG and EDA.
     \end{frame}
 
 
