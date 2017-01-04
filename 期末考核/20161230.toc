@@ -1,5 +1,8 @@
 \beamer@endinputifotherversion {3.14pt}
-\beamer@sectionintoc {1}{Background}{3}{0}{1}
-\beamer@sectionintoc {2}{Our algorithm}{7}{0}{2}
-\beamer@sectionintoc {3}{Experiment results}{12}{0}{3}
-\beamer@sectionintoc {4}{Conclusions and future work}{20}{0}{4}
+\beamer@sectionintoc {1}{工作总结}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{小论文工作}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{毕业论文开题}{6}{0}{1}
+\beamer@subsectionintoc {1}{3}{毕业论文}{8}{0}{1}
+\beamer@sectionintoc {2}{工作计划}{10}{0}{2}
+\beamer@subsectionintoc {2}{1}{毕业论文}{10}{0}{2}
+\beamer@subsectionintoc {2}{2}{实验补充}{12}{0}{2}
