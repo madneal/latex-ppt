@@ -4,5 +4,5 @@
 \beamer@subsectionintoc {1}{2}{毕业论文开题}{6}{0}{1}
 \beamer@subsectionintoc {1}{3}{毕业论文}{8}{0}{1}
 \beamer@sectionintoc {2}{工作计划}{11}{0}{2}
-\beamer@subsectionintoc {2}{1}{毕业论文}{11}{0}{2}
-\beamer@subsectionintoc {2}{2}{实验补充}{13}{0}{2}
+\beamer@subsectionintoc {2}{1}{实验补充}{11}{0}{2}
+\beamer@subsectionintoc {2}{2}{毕业论文}{13}{0}{2}
