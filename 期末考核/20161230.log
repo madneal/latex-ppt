@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  8 JAN 2017 21:52
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  8 JAN 2017 22:00
 entering extended mode
 **20161230.tex
 (C:\Users\neal1\project\latex-ppt\期末考核\20161230.tex
@@ -1256,11 +1256,11 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 20380 strings out of 495354
- 348664 string characters out of 3183858
- 454073 words of memory out of 3000000
- 23012 multiletter control sequences out of 15000+200000
- 34887 words of font info for 119 fonts, out of 3000000 for 9000
+ 20379 strings out of 495354
+ 348644 string characters out of 3183858
+ 455069 words of memory out of 3000000
+ 23011 multiletter control sequences out of 15000+200000
+ 34589 words of font info for 118 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,17n,63p,422b,1082s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/
@@ -1286,7 +1286,7 @@ eX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmss10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/C
 TEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/CTEX/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmss8.pfb>
-Output written on 20161230.pdf (15 pages, 371695 bytes).
+Output written on 20161230.pdf (15 pages, 371636 bytes).
 PDF statistics:
  671 PDF objects out of 1000 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)
