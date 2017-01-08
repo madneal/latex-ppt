@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  4 JAN 2017 14:31
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  8 JAN 2017 21:52
 entering extended mode
-**C:/Users/neal1/project/latex-ppt/期末考核/20161230.tex
-(C:/Users/neal1/project/latex-ppt/期末考核/20161230.tex
+**20161230.tex
+(C:\Users\neal1\project\latex-ppt\期末考核\20161230.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (C:\CTEX\MiKTeX\tex\latex\beamer\base\beamer.cls
@@ -381,6 +381,11 @@ File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 3925.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 3925.
+Package hyperref Info: Option `unicode' set `true' on input line 3925.
+
+(C:\CTEX\MiKTeX\tex\latex\hyperref\puenc.def
+File: puenc.def 2012/02/06 v6.82o Hyperref: PDF Unicode definition (HO)
+)
 Package hyperref Info: Option `implicit' set `false' on input line 3925.
 Package hyperref Info: Hyper figures OFF on input line 4046.
 Package hyperref Info: Link nesting OFF on input line 4051.
@@ -876,6 +881,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 31.
@@ -1234,22 +1241,28 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
 (C:\Users\neal1\project\latex-ppt\期末考核\20161230.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
-Package rerunfilecheck Info: File `20161230.out' has not changed.
-(rerunfilecheck)             Checksum: B3BE208D40438AB812314BFA1CA794AE;386.
 
+
+Package rerunfilecheck Warning: File `20161230.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `20161230.out':
+(rerunfilecheck)             Before: C9F3A93B47DCB9061B1DF5D8F4DEF5EA;628
+(rerunfilecheck)             After:  64DA9055EC29249CB57FE1EF11A6B5B3;659.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 8.41pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 19093 strings out of 495354
- 335156 string characters out of 3183858
- 444463 words of memory out of 3000000
- 21728 multiletter control sequences out of 15000+200000
+ 20380 strings out of 495354
+ 348664 string characters out of 3183858
+ 454073 words of memory out of 3000000
+ 23012 multiletter control sequences out of 15000+200000
  34887 words of font info for 119 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,17n,63p,468b,1076s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,17n,63p,422b,1082s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/
 chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTe
 X/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun
@@ -1273,7 +1286,7 @@ eX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmss10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/C
 TEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/CTEX/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmss8.pfb>
-Output written on 20161230.pdf (15 pages, 371038 bytes).
+Output written on 20161230.pdf (15 pages, 371695 bytes).
 PDF statistics:
  671 PDF objects out of 1000 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)
