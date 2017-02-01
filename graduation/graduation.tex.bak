@@ -33,7 +33,7 @@
 
     \title[差分采样]{分布估计算法中差分采样策略的研究}
     \author[董兵]{董兵\\{周爱民\quad 副教授}}
-
+    
     \institute[ECNU]{华东师范大学\par 计算机科学软件工程学院}
     \date{January 2017}
     \logo{\includegraphics[height=0.5cm,width=3.0cm]{university-logo-ecnu}\vspace{230pt}}
@@ -43,14 +43,15 @@
     \end{frame}
     \setbeamertemplate{section in toc}[square]
     \begin{frame}
-        \tableofcontents[hideallsubsections]
+
+        \tableofcontents
     \end{frame}
 
     \section{工作总结}
-    \subsection{研究目的和意义}
+    \subsection{小论文工作}
     %\frame{\tableofcontents[currentsection]}
-    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
-    
+    \frame{\tableofcontents[currentsection, currentsubsection]}
+
     \begin{frame}
     \large{Sampling in Latent Space for a Multiobjective Estimation of Distribution Algorithm}
 
