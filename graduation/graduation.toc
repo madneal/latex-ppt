@@ -1,5 +1,5 @@
 \beamer@endinputifotherversion {3.14pt}
-\beamer@sectionintoc {1}{工作总结}{3}{0}{1}
+\beamer@sectionintoc {1}{绪论}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{研究目的和意义}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{毕业论文开题}{6}{0}{1}
 \beamer@subsectionintoc {1}{3}{毕业论文}{8}{0}{1}

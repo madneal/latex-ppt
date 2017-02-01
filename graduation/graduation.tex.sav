@@ -68,8 +68,9 @@
     \begin{figure}[H]
     \graphicspath{{figs/}}
     \includegraphics[width=0.7\textwidth]{eda.png}
-    \caption{演化算法流程图}
+    \caption{分布估计算法}
     \end{figure}
+    
     \end{frame}
 
     \subsection{毕业论文开题}
