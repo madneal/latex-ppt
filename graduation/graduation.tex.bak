@@ -33,7 +33,7 @@
 
     \title[差分采样]{分布估计算法中差分采样策略的研究}
     \author[董兵]{董兵\\{周爱民\quad 副教授}}
-    
+
     \institute[ECNU]{华东师范大学\par 计算机科学软件工程学院}
     \date{January 2017}
     \logo{\includegraphics[height=0.5cm,width=3.0cm]{university-logo-ecnu}\vspace{230pt}}
@@ -43,40 +43,44 @@
     \end{frame}
     \setbeamertemplate{section in toc}[square]
     \begin{frame}
-
-        \tableofcontents
+        \tableofcontents[hideallsubsections]
     \end{frame}
 
-    \section{工作总结}
-    \subsection{小论文工作}
+    \section{绪论}
+    \subsection{研究目的和意义}
     %\frame{\tableofcontents[currentsection]}
-    \frame{\tableofcontents[currentsection, currentsubsection]}
+    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
 
     \begin{frame}
-    \large{Sampling in Latent Space for a Multiobjective Estimation of Distribution Algorithm}
-
-    这篇论文主要是针对多目标优化问题，在基于RM-MEDA的基础上，提出了一种differential evolution based strategy(DES),即在种群中的个体中转换到隐空间中，采取一种新型的变异策略进行变异操作，再将种群个体投影到原始的坐标空间，从而产生新的个体。通过综合的实验对比分析，DES采样策略能够有效提高RM-MEDA的采样。
-
-    这篇论文已经被IEEE Congress on Evolutionary Computation接收发表。
+    演化算法是一种基于种群的启发式优化算法，是隶属于演化计算的人工智能算法。
+    \begin{figure}[H]
+    \graphicspath{{figs/}}
+    \includegraphics[width=0.7\textwidth]{ec.png}
+    \caption{演化算法流程图}
+    \end{figure}
     \end{frame}
 
-
+    
     \begin{frame}
-    \large{A Hybrid Estimation of Distribution Algorithm with Differential Evolution for Global Optimization}
+    分布估计算法是一种新型的演化算法，传统的分布估计算法主要由三个步骤组成：建模、采样、选择。
 
-    这篇论文主要是针对单目标全局优化问题，在基于DE/EDA框架的基础上，提出了EDA/DE-EIG算法。这个算法通过结合DE-EIG，即基于特征向量的差分进化，通过在旋转的坐标空间中做交叉操作，从而避免损失种群的统计信息。另外，通过结合 expensive Local Search 对解集质量进行进一步优化。通过将EDA/DE-EIG和JADE以及DE/EDA进行综合的实验对比分析，EDA/DE-EIG具有一定的优势，并且值得进一步的深入研究。
+    本文的研究目的是利用\textbf{差分采样策略}来取代分布估计算法传统的建模采样，从而提高算法的性能。
+    \begin{figure}[H]
+    \graphicspath{{figs/}}
+    \includegraphics[width=0.7\textwidth]{eda.png}
+    \caption{分布估计算法}
+    \end{figure}
 
-    这篇论文已经被IEEE Symposium Series on Computational Intelligience接收发表。
     \end{frame}
 
-    \subsection{毕业论文开题}
-    \frame{\tableofcontents[currentsection, currentsubsection]}
+    \subsection{主要研究内容}
+    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
-    通过阅读参考文献和相关的实验准备，完成了毕业论文的开题工作以及中期考核的相关工作。开题报告的主要内容包括：
+    
     \begin{itemize}
-    \item 研究背景研究，当前的研究现状，主要的参考文献
-    \item 研究方案包括研究目标，研究内容和关键问题，和计划的研究方法
-    \item 论文工作的进展规划
+    \item 受差分进化启发，提出一种基于差分进化的采样策略，即差分采样策略。
+    \item 对于单目标优化问题，利用基于特征向量的差分进化去改进采样，通过expensive Local Search进一步改进解集质量，提出基于差分采样的单目标分布估计算法。
+    \item 对于多目标优化问题，利用差分采样策略去改进RM-MEDA的采样，提出基于差分采样的多目标分布估计算法。
     \end{itemize}
     \end{frame}
 
@@ -120,13 +124,14 @@
     \section*{thx}
         \begin{frame}
         \begin{center}
-        %\structure
+
         \fontsize{60pt}{\baselineskip}\selectfont \structure{Thanks!}
         \end{center}
-        \begin{reference}{0mm}{80mm}
-%        \begin{itemize}
-%        \item  B. Dong, A. Zhou, and G. Zhang, A Hybrid Estimation of Distribution Algorithm with Differential Evolution for Global Optimization, 2016 IEEE Symposium Series on Computational Intelligence (SSCI), 2016.
-%        \end{itemize}
+        \begin{reference}{0mm}{70mm}
+        \begin{itemize}
+        \item  B. Dong, A. Zhou, and G. Zhang, A Hybrid Estimation of Distribution Algorithm with Differential Evolution for Global Optimization, 2016 IEEE Symposium Series on Computational Intelligence (SSCI), 2016.
+        \item  B. Dong, A. Zhou, and G. Zhang, Sampling in Latent Space for a Multiobjective Estimation of Distribution Algorithm, 2016 IEEE Congress on Evolutionary Computation (CEC), 2016.
+        \end{itemize}
         \end{reference}
         \end{frame}
 \end{CJK*}
