@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  2 FEB 2017 13:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  3 FEB 2017 22:15
 entering extended mode
 **graduation.tex
 (C:\Users\neal1\project\latex-ppt\graduation\graduation.tex
@@ -1106,7 +1106,7 @@ File: c19song.fd 2009/09/23 4.8.2
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 43.
 
-<university-logo-ecnu.png, id=42, 205.5178pt x 37.64063pt>
+<university-logo-ecnu.png, id=38, 205.5178pt x 37.64063pt>
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
@@ -1134,7 +1134,7 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 52.
  [3
 
 ]
-<figs/ec.png, id=174, 586.19pt x 255.95625pt>
+<figs/ec.png, id=166, 586.19pt x 255.95625pt>
 File: figs/ec.png Graphic file (type png)
  <use figs/ec.png>
 Package pdftex.def Info: figs/ec.png used on input line 61.
@@ -1147,7 +1147,7 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 61.
  [4
 
  <C:/Users/neal1/project/latex-ppt/graduation/figs/ec.png>] <figs/eda.png, id=2
-10, 557.08125pt x 210.7875pt>
+02, 557.08125pt x 210.7875pt>
 File: figs/eda.png Graphic file (type png)
 
 <use figs/eda.png>
@@ -1180,78 +1180,54 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 85.
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 88.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 89.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [8
 
 ]
 File: university-logo-ecnu.png Graphic file (type png)
  <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 94.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 97.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [9
-
-]
-File: university-logo-ecnu.png Graphic file (type png)
-
-<use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 104.
-(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
- [10
 
 ]
 (C:\Users\neal1\project\latex-ppt\graduation\graduation.toc)
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
+Package pdftex.def Info: university-logo-ecnu.png used on input line 100.
+(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
+ [10
+
+]
+File: university-logo-ecnu.png Graphic file (type png)
+ <use university-logo-ecnu.png>
 Package pdftex.def Info: university-logo-ecnu.png used on input line 108.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [11
 
 ]
-File: university-logo-ecnu.png Graphic file (type png)
- <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 111.
-(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
- [12
-
-]
-(C:\Users\neal1\project\latex-ppt\graduation\graduation.toc)
-File: university-logo-ecnu.png Graphic file (type png)
-
-<use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 114.
-(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
- [13
-
-]
-File: university-logo-ecnu.png Graphic file (type png)
- <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 122.
-(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
- [14
-
-]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <60> not available
-(Font)              size <51.59> substituted on input line 136.
+(Font)              size <51.59> substituted on input line 122.
 
 File: university-logo-ecnu.png Graphic file (type png)
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 136.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 122.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
- [15
+ [12
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
 
 (C:\Users\neal1\project\latex-ppt\graduation\graduation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 
 
 Package rerunfilecheck Warning: File `graduation.out' has changed.
@@ -1259,21 +1235,21 @@ Package rerunfilecheck Warning: File `graduation.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `graduation.out':
-(rerunfilecheck)             Before: F14F62663AE74B2FE593D239457612FD;628
-(rerunfilecheck)             After:  DC2924DB6D7C780ADF602E36DB6A8969;659.
+(rerunfilecheck)             Before: FA9B36404AED2D536204E603C999EF47;553
+(rerunfilecheck)             After:  B5B8F3830310B6737A68499B5CCA3DF6;582.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 8.41pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 20387 strings out of 495354
- 348811 string characters out of 3183858
- 454349 words of memory out of 3000000
- 23015 multiletter control sequences out of 15000+200000
- 31641 words of font info for 108 fonts, out of 3000000 for 9000
+ 20331 strings out of 495354
+ 347810 string characters out of 3183858
+ 449120 words of memory out of 3000000
+ 22969 multiletter control sequences out of 15000+200000
+ 31337 words of font info for 107 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,17n,63p,424b,1078s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,17n,63p,424b,1050s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/
 chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTe
 X/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun
@@ -1292,13 +1268,13 @@ ts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf>
 inese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/
 fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.t
 tf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype
-/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CT
-eX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmss10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/C
-TEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on graduation.pdf (15 pages, 385901 bytes).
+/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmss17.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.
+pfb>
+Output written on graduation.pdf (12 pages, 346725 bytes).
 PDF statistics:
- 666 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 559 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
