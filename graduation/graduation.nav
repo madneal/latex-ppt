@@ -26,18 +26,50 @@
 \headcommand {\beamer@framepages {8}{8}}
 \headcommand {\slideentry {2}{1}{2}{9/9}{分布估计算法}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{10}{差分进化}}\headcommand {\beamer@subsectionpages {8}{9}}
-\headcommand {\slideentry {2}{2}{1}{10/10}{差分进化}{0}}
+\headcommand {\slideentry {2}{1}{3}{10/10}{分布估计算法}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {2}{2}{2}{11/11}{差分进化}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{11}{差分进化}}\headcommand {\beamer@subsectionpages {8}{10}}
+\headcommand {\slideentry {2}{2}{1}{11/11}{差分进化}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\sectionentry {3}{thx}{12}{thx}{0}}
-\headcommand {\beamer@sectionpages {8}{11}}
-\headcommand {\beamer@subsectionpages {10}{11}}
-\headcommand {\slideentry {3}{0}{3}{12/12}{}{0}}
+\headcommand {\slideentry {2}{2}{2}{12/12}{差分进化}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\beamer@partpages {1}{12}}
-\headcommand {\beamer@subsectionpages {1}{12}}
-\headcommand {\beamer@sectionpages {1}{12}}
-\headcommand {\beamer@documentpages {12}}
-\headcommand {\def \inserttotalframenumber {12}}
+\headcommand {\slideentry {2}{2}{3}{13/13}{差分进化}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\sectionentry {3}{基于差分采样的单目标优化}{14}{基于差分采样的单目标优化}{0}}
+\headcommand {\beamer@sectionpages {8}{13}}
+\headcommand {\beamer@subsectionpages {11}{13}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{14}{全局单目标优化问题}}\headcommand {\beamer@subsectionpages {14}{13}}
+\headcommand {\slideentry {3}{1}{1}{14/14}{全局单目标优化问题}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {3}{1}{2}{15/15}{全局单目标优化问题}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{16}{基于差分采样的单目标分布估计算法}}\headcommand {\beamer@subsectionpages {14}{15}}
+\headcommand {\slideentry {3}{2}{1}{16/16}{基于差分采样的单目标分布估计算法}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {3}{2}{2}{17/17}{基于差分采样的单目标分布估计算法}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {3}{2}{3}{18/18}{基于差分采样的单目标分布估计算法}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {3}{2}{4}{19/19}{基于差分采样的单目标分布估计算法}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {3}{2}{5}{20/20}{基于差分采样的单目标分布估计算法}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{21}{实验分析}}\headcommand {\beamer@subsectionpages {16}{20}}
+\headcommand {\slideentry {3}{3}{1}{21/21}{实验分析}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {3}{3}{2}{22/22}{实验分析}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {3}{3}{3}{23/23}{实验分析}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\slideentry {3}{3}{4}{24/24}{实验分析}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\sectionentry {4}{thx}{25}{thx}{0}}
+\headcommand {\beamer@sectionpages {14}{24}}
+\headcommand {\beamer@subsectionpages {21}{24}}
+\headcommand {\slideentry {4}{0}{5}{25/25}{}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\beamer@partpages {1}{25}}
+\headcommand {\beamer@subsectionpages {1}{25}}
+\headcommand {\beamer@sectionpages {1}{25}}
+\headcommand {\beamer@documentpages {25}}
+\headcommand {\def \inserttotalframenumber {25}}
