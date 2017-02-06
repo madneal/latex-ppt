@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  5 FEB 2017 22:06
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  6 FEB 2017 14:55
 entering extended mode
-**graduation.tex
-(C:\Users\neal1\project\latex-ppt\graduation\graduation.tex
+**C:/Users/neal1/project/latex-ppt/graduation/graduation.tex
+(C:/Users/neal1/project/latex-ppt/graduation/graduation.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (C:\CTEX\MiKTeX\tex\latex\beamer\base\beamer.cls
@@ -866,7 +866,11 @@ Grid set 16 x 16 = 22.7622pt x 17.07166pt
 \TP@tbargs=\toks46
 \TP@prevdepth=\dimen209
 TextBlockOrigin set to 0pt x 0pt
-) (C:\Users\neal1\project\latex-ppt\graduation\graduation.aux)
+) (C:\Users\neal1\project\latex-ppt\graduation\graduation.aux
+
+LaTeX Warning: Label `eda-deeig-fig1' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
@@ -1095,22 +1099,22 @@ File: extended.chr 2008/12/29 4.8.2
 )
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 35.
+(hyperref)                setting the option has no effect on input line 36.
 
-LaTeX Font Info:    Try loading font information for C19+song on input line 43.
+LaTeX Font Info:    Try loading font information for C19+song on input line 44.
 
 (C:\CTEX\CTeX\tex\latex\CJK\GB\c19song.fd
 File: c19song.fd 2009/09/23 4.8.2
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 43.
+(Font)              size <5> substituted on input line 44.
 
-<university-logo-ecnu.png, id=54, 205.5178pt x 37.64063pt>
+<university-logo-ecnu.png, id=74, 205.5178pt x 37.64063pt>
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 43.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 44.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [1
 
@@ -1120,7 +1124,7 @@ ject\latex-ppt\graduation\graduation.toc)
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 47.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 48.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [2
 
@@ -1129,33 +1133,33 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 47.
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 52.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 53.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [3
 
 ]
-<figs/ec.png, id=193, 586.19pt x 255.95625pt>
+<figs/ec.png, id=226, 586.19pt x 255.95625pt>
 File: figs/ec.png Graphic file (type png)
  <use figs/ec.png>
-Package pdftex.def Info: figs/ec.png used on input line 61.
+Package pdftex.def Info: figs/ec.png used on input line 62.
 (pdftex.def)             Requested size: 239.60567pt x 104.62247pt.
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 61.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 62.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [4
 
  <C:/Users/neal1/project/latex-ppt/graduation/figs/ec.png>] <figs/eda.png, id=2
-27, 557.08125pt x 210.7875pt>
+59, 557.08125pt x 210.7875pt>
 File: figs/eda.png Graphic file (type png)
 
 <use figs/eda.png>
-Package pdftex.def Info: figs/eda.png used on input line 74.
+Package pdftex.def Info: figs/eda.png used on input line 75.
 (pdftex.def)             Requested size: 239.60567pt x 90.65936pt.
 File: university-logo-ecnu.png Graphic file (type png)
  <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 74.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 75.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [5
 
@@ -1164,14 +1168,14 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 74.
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 77.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 78.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [6
 
 ]
 File: university-logo-ecnu.png Graphic file (type png)
  <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 85.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 86.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [7
 
@@ -1180,29 +1184,29 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 85.
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 89.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 90.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [8
 
 ]
-<figs/edaag.png, id=362, 249.93375pt x 520.94624pt>
+<figs/edaag.png, id=403, 249.93375pt x 520.94624pt>
 File: figs/edaag.png Graphic file (type png)
  <use figs/edaag.png>
-Package pdftex.def Info: figs/edaag.png used on input line 107.
+Package pdftex.def Info: figs/edaag.png used on input line 108.
 (pdftex.def)             Requested size: 85.57382pt x 178.35942pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 107.
+LaTeX Font Info:    Try loading font information for U+msa on input line 108.
 
 (C:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 107.
+LaTeX Font Info:    Try loading font information for U+msb on input line 108.
 
 (C:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 File: university-logo-ecnu.png Graphic file (type png)
  <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 107.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 108.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
 
 [9
@@ -1211,7 +1215,7 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 107.
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 116.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 117.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [10
 
@@ -1220,27 +1224,27 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 116.
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 119.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 120.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [11
 
 ]
-<figs/deag.png, id=457, 249.93375pt x 520.94624pt>
+<figs/deag.png, id=503, 249.93375pt x 520.94624pt>
 File: figs/deag.png Graphic file (type png)
  <use figs/deag.png>
-Package pdftex.def Info: figs/deag.png used on input line 147.
+Package pdftex.def Info: figs/deag.png used on input line 148.
 (pdftex.def)             Requested size: 82.15045pt x 171.22917pt.
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 147.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 148.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [12
 
  <C:/Users/neal1/project/latex-ppt/graduation/figs/deag.png>]
 File: university-logo-ecnu.png Graphic file (type png)
  <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 156.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 157.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [13
 
@@ -1249,14 +1253,14 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 156.
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 161.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 162.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [14
 
 ]
 File: university-logo-ecnu.png Graphic file (type png)
  <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 174.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 175.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [15
 
@@ -1265,53 +1269,53 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 174.
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 177.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 178.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [16
 
 ]
-<figs/de-eig.png, id=624, 383.031pt x 412.54124pt>
+<figs/de-eig.png, id=680, 383.031pt x 412.54124pt>
 File: figs/de-eig.png Graphic file (type png)
  <use figs/de-eig.png>
-Package pdftex.def Info: figs/de-eig.png used on input line 194.
+Package pdftex.def Info: figs/de-eig.png used on input line 195.
 (pdftex.def)             Requested size: 136.91862pt x 147.46979pt.
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 194.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 195.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [17
 
  <C:/Users/neal1/project/latex-ppt/graduation/figs/de-eig.png>] <figs/deeda.png
-, id=654, 376.40625pt x 264.38776pt>
+, id=710, 376.40625pt x 264.38776pt>
 File: figs/deeda.png Graphic file (type png)
 
 <use figs/deeda.png>
-Package pdftex.def Info: figs/deeda.png used on input line 212.
+Package pdftex.def Info: figs/deeda.png used on input line 213.
 (pdftex.def)             Requested size: 154.03183pt x 108.19392pt.
 File: university-logo-ecnu.png Graphic file (type png)
  <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 212.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 213.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [18
 
  <C:/Users/neal1/project/latex-ppt/graduation/figs/deeda.png>]
 File: university-logo-ecnu.png Graphic file (type png)
  <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 241.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 242.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [19
 
 ]
-<figs/edade-eig.png, id=719, 337.26pt x 303.534pt>
+<figs/edade-eig.png, id=775, 337.26pt x 303.534pt>
 File: figs/edade-eig.png Graphic file (type png)
  <use figs/edade-eig.png>
-Package pdftex.def Info: figs/edade-eig.png used on input line 259.
+Package pdftex.def Info: figs/edade-eig.png used on input line 260.
 (pdftex.def)             Requested size: 154.03183pt x 138.63155pt.
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 259.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 260.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [20
 
@@ -1320,84 +1324,620 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 259.
 File: university-logo-ecnu.png Graphic file (type png)
 
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 262.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 263.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [21
 
 ]
 File: university-logo-ecnu.png Graphic file (type png)
  <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 271.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 272.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [22
 
 ]
-File: university-logo-ecnu.png Graphic file (type png)
+Package epstopdf Info: Source file: <figs/eda-de-eig/f1.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 19149 bytes
+(epstopdf)             Output file: <figs/eda-de-eig/f1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 8389 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f1-eps-conv
+erted-to.pdf figs/eda-de-eig/f1.eps>
+(epstopdf)             \includegraphics on input line 287.
+Package epstopdf Info: Output file is already uptodate.
 
+<figs/eda-de-eig/f1-eps-converted-to.pdf, id=875, 506.89375pt x 408.52625pt>
+File: figs/eda-de-eig/f1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/eda-de-eig/f1-eps-converted-to.pdf>
+Package pdftex.def Info: figs/eda-de-eig/f1-eps-converted-to.pdf used on input 
+line 287.
+(pdftex.def)             Requested size: 102.68962pt x 82.75728pt.
+Package epstopdf Info: Source file: <figs/eda-de-eig/f2.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 19134 bytes
+(epstopdf)             Output file: <figs/eda-de-eig/f2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 8333 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f2-eps-conv
+erted-to.pdf figs/eda-de-eig/f2.eps>
+(epstopdf)             \includegraphics on input line 287.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/eda-de-eig/f2-eps-converted-to.pdf, id=876, 502.87875pt x 408.52625pt>
+File: figs/eda-de-eig/f2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/eda-de-eig/f2-eps-converted-to.pdf>
+Package pdftex.def Info: figs/eda-de-eig/f2-eps-converted-to.pdf used on input 
+line 287.
+(pdftex.def)             Requested size: 102.68962pt x 83.41803pt.
+Package epstopdf Info: Source file: <figs/eda-de-eig/f3.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 18385 bytes
+(epstopdf)             Output file: <figs/eda-de-eig/f3-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 8093 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f3-eps-conv
+erted-to.pdf figs/eda-de-eig/f3.eps>
+(epstopdf)             \includegraphics on input line 287.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/eda-de-eig/f3-eps-converted-to.pdf, id=877, 502.87875pt x 408.52625pt>
+File: figs/eda-de-eig/f3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/eda-de-eig/f3-eps-converted-to.pdf>
+Package pdftex.def Info: figs/eda-de-eig/f3-eps-converted-to.pdf used on input 
+line 287.
+(pdftex.def)             Requested size: 102.68962pt x 83.41803pt.
+Package epstopdf Info: Source file: <figs/eda-de-eig/f4.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 16304 bytes
+(epstopdf)             Output file: <figs/eda-de-eig/f4-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 8027 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f4-eps-conv
+erted-to.pdf figs/eda-de-eig/f4.eps>
+(epstopdf)             \includegraphics on input line 287.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/eda-de-eig/f4-eps-converted-to.pdf, id=878, 502.87875pt x 408.52625pt>
+File: figs/eda-de-eig/f4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/eda-de-eig/f4-eps-converted-to.pdf>
+Package pdftex.def Info: figs/eda-de-eig/f4-eps-converted-to.pdf used on input 
+line 287.
+(pdftex.def)             Requested size: 102.68962pt x 83.41803pt.
+Package epstopdf Info: Source file: <figs/eda-de-eig/f5.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 18403 bytes
+(epstopdf)             Output file: <figs/eda-de-eig/f5-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 8072 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f5-eps-conv
+erted-to.pdf figs/eda-de-eig/f5.eps>
+(epstopdf)             \includegraphics on input line 287.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/eda-de-eig/f5-eps-converted-to.pdf, id=879, 502.87875pt x 408.52625pt>
+File: figs/eda-de-eig/f5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/eda-de-eig/f5-eps-converted-to.pdf>
+Package pdftex.def Info: figs/eda-de-eig/f5-eps-converted-to.pdf used on input 
+line 287.
+(pdftex.def)             Requested size: 102.68962pt x 83.41803pt.
+Package epstopdf Info: Source file: <figs/eda-de-eig/f7.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 16090 bytes
+(epstopdf)             Output file: <figs/eda-de-eig/f7-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 8630 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f7-eps-conv
+erted-to.pdf figs/eda-de-eig/f7.eps>
+(epstopdf)             \includegraphics on input line 287.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/eda-de-eig/f7-eps-converted-to.pdf, id=880, 498.86375pt x 408.52625pt>
+File: figs/eda-de-eig/f7-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/eda-de-eig/f7-eps-converted-to.pdf>
+Package pdftex.def Info: figs/eda-de-eig/f7-eps-converted-to.pdf used on input 
+line 287.
+(pdftex.def)             Requested size: 102.68962pt x 84.09126pt.
+
+Overfull \vbox (0.91962pt too high) detected at line 287
+ []
+
+File: university-logo-ecnu.png Graphic file (type png)
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 274.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 287.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [23
 
-]
-<figs/edade-eig-tab1.png, id=841, 458.9145pt x 389.0535pt>
-File: figs/edade-eig-tab1.png Graphic file (type png)
+ <C:/Users/neal1/project/latex-ppt/graduation/figs/eda-de-eig/f1-eps-converted-
+to.pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/eda-de-eig/f2-eps-con
+verted-to.pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/eda-de-eig/f3-
+eps-converted-to.pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/eda-de-
+eig/f4-eps-converted-to.pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/
+eda-de-eig/f5-eps-converted-to.pdf> <C:/Users/neal1/project/latex-ppt/graduatio
+n/figs/eda-de-eig/f7-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figs/eda-de-eig/f8.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 14643 bytes
+(epstopdf)             Output file: <figs/eda-de-eig/f8-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 8341 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f8-eps-conv
+erted-to.pdf figs/eda-de-eig/f8.eps>
+(epstopdf)             \includegraphics on input line 302.
+Package epstopdf Info: Output file is already uptodate.
 
-<use figs/edade-eig-tab1.png>
-Package pdftex.def Info: figs/edade-eig-tab1.png used on input line 293.
-(pdftex.def)             Requested size: 205.37926pt x 174.11667pt.
-File: university-logo-ecnu.png Graphic file (type png)
- <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 293.
-(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
- [24
+<figs/eda-de-eig/f8-eps-converted-to.pdf, id=948, 494.84875pt x 408.52625pt>
+File: figs/eda-de-eig/f8-eps-converted-to.pdf Graphic file (type pdf)
 
- <C:/Users/neal1/project/latex-ppt/graduation/figs/edade-eig-tab1.png>]
+<use figs/eda-de-eig/f8-eps-converted-to.pdf>
+Package pdftex.def Info: figs/eda-de-eig/f8-eps-converted-to.pdf used on input 
+line 302.
+(pdftex.def)             Requested size: 102.68962pt x 84.77072pt.
+Package epstopdf Info: Source file: <figs/eda-de-eig/f9.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 19405 bytes
+(epstopdf)             Output file: <figs/eda-de-eig/f9-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 8284 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f9-eps-conv
+erted-to.pdf figs/eda-de-eig/f9.eps>
+(epstopdf)             \includegraphics on input line 302.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <60> not available
-(Font)              size <51.59> substituted on input line 307.
+<figs/eda-de-eig/f9-eps-converted-to.pdf, id=949, 502.87875pt x 408.52625pt>
+File: figs/eda-de-eig/f9-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/eda-de-eig/f9-eps-converted-to.pdf>
+Package pdftex.def Info: figs/eda-de-eig/f9-eps-converted-to.pdf used on input 
+line 302.
+(pdftex.def)             Requested size: 102.68962pt x 83.41803pt.
+Package epstopdf Info: Source file: <figs/eda-de-eig/f10.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 19087 bytes
+(epstopdf)             Output file: <figs/eda-de-eig/f10-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 8085 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f10-eps-con
+verted-to.pdf figs/eda-de-eig/f10.eps>
+(epstopdf)             \includegraphics on input line 302.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/eda-de-eig/f10-eps-converted-to.pdf, id=950, 502.87875pt x 408.52625pt>
+File: figs/eda-de-eig/f10-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/eda-de-eig/f10-eps-converted-to.pdf>
+Package pdftex.def Info: figs/eda-de-eig/f10-eps-converted-to.pdf used on input
+ line 302.
+(pdftex.def)             Requested size: 102.68962pt x 83.41803pt.
+Package epstopdf Info: Source file: <figs/eda-de-eig/f11.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 17801 bytes
+(epstopdf)             Output file: <figs/eda-de-eig/f11-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 6966 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f11-eps-con
+verted-to.pdf figs/eda-de-eig/f11.eps>
+(epstopdf)             \includegraphics on input line 302.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/eda-de-eig/f11-eps-converted-to.pdf, id=951, 502.87875pt x 408.52625pt>
+File: figs/eda-de-eig/f11-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/eda-de-eig/f11-eps-converted-to.pdf>
+Package pdftex.def Info: figs/eda-de-eig/f11-eps-converted-to.pdf used on input
+ line 302.
+(pdftex.def)             Requested size: 102.68962pt x 83.41803pt.
+Package epstopdf Info: Source file: <figs/eda-de-eig/f12.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 19092 bytes
+(epstopdf)             Output file: <figs/eda-de-eig/f12-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 7772 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f12-eps-con
+verted-to.pdf figs/eda-de-eig/f12.eps>
+(epstopdf)             \includegraphics on input line 302.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/eda-de-eig/f12-eps-converted-to.pdf, id=952, 502.87875pt x 408.52625pt>
+File: figs/eda-de-eig/f12-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/eda-de-eig/f12-eps-converted-to.pdf>
+Package pdftex.def Info: figs/eda-de-eig/f12-eps-converted-to.pdf used on input
+ line 302.
+(pdftex.def)             Requested size: 102.68962pt x 83.41803pt.
+Package epstopdf Info: Source file: <figs/eda-de-eig/f13.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 19095 bytes
+(epstopdf)             Output file: <figs/eda-de-eig/f13-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 7744 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f13-eps-con
+verted-to.pdf figs/eda-de-eig/f13.eps>
+(epstopdf)             \includegraphics on input line 302.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/eda-de-eig/f13-eps-converted-to.pdf, id=953, 502.87875pt x 408.52625pt>
+File: figs/eda-de-eig/f13-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/eda-de-eig/f13-eps-converted-to.pdf>
+Package pdftex.def Info: figs/eda-de-eig/f13-eps-converted-to.pdf used on input
+ line 302.
+(pdftex.def)             Requested size: 102.68962pt x 83.41803pt.
+pdfTeX warning (ext4): destination with the same identifier (name{eda-deeig-fig
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.302     \end{frame}
+                     
+Overfull \vbox (2.25983pt too high) detected at line 302
+ []
 
 File: university-logo-ecnu.png Graphic file (type png)
 <use university-logo-ecnu.png>
-Package pdftex.def Info: university-logo-ecnu.png used on input line 307.
+Package pdftex.def Info: university-logo-ecnu.png used on input line 302.
+(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
+ [24
+
+ <C:/Users/neal1/project/latex-ppt/graduation/figs/eda-de-eig/f8-eps-converted-
+to.pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/eda-de-eig/f9-eps-con
+verted-to.pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/eda-de-eig/f10
+-eps-converted-to.pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/eda-de
+-eig/f11-eps-converted-to.pdf> <C:/Users/neal1/project/latex-ppt/graduation/fig
+s/eda-de-eig/f12-eps-converted-to.pdf> <C:/Users/neal1/project/latex-ppt/gradua
+tion/figs/eda-de-eig/f13-eps-converted-to.pdf>] <figs/edade-eig-tab1.png, id=10
+18, 458.9145pt x 389.0535pt>
+File: figs/edade-eig-tab1.png Graphic file (type png)
+
+<use figs/edade-eig-tab1.png>
+Package pdftex.def Info: figs/edade-eig-tab1.png used on input line 312.
+(pdftex.def)             Requested size: 205.37926pt x 174.11667pt.
+File: university-logo-ecnu.png Graphic file (type png)
+ <use university-logo-ecnu.png>
+Package pdftex.def Info: university-logo-ecnu.png used on input line 312.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [25
+
+ <C:/Users/neal1/project/latex-ppt/graduation/figs/edade-eig-tab1.png>]
+(C:\Users\neal1\project\latex-ppt\graduation\graduation.toc)
+File: university-logo-ecnu.png Graphic file (type png)
+
+<use university-logo-ecnu.png>
+Package pdftex.def Info: university-logo-ecnu.png used on input line 316.
+(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
+ [26
+
+]
+File: university-logo-ecnu.png Graphic file (type png)
+ <use university-logo-ecnu.png>
+Package pdftex.def Info: university-logo-ecnu.png used on input line 328.
+(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
+ [27
+
+]
+(C:\Users\neal1\project\latex-ppt\graduation\graduation.toc)
+File: university-logo-ecnu.png Graphic file (type png)
+
+<use university-logo-ecnu.png>
+Package pdftex.def Info: university-logo-ecnu.png used on input line 331.
+(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
+ [28
+
+]
+
+LaTeX Warning: Citation `moead' on page 29 undefined on input line 334.
+
+File: university-logo-ecnu.png Graphic file (type png)
+<use university-logo-ecnu.png>
+Package pdftex.def Info: university-logo-ecnu.png used on input line 334.
+(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
+ [29
+
+]
+<figs/ps.png, id=1193, 236.38312pt x 129.48375pt>
+File: figs/ps.png Graphic file (type png)
+ <use figs/ps.png>
+Package pdftex.def Info: figs/ps.png used on input line 345.
+(pdftex.def)             Requested size: 171.14764pt x 93.75179pt.
+File: university-logo-ecnu.png Graphic file (type png)
+
+<use university-logo-ecnu.png>
+Package pdftex.def Info: university-logo-ecnu.png used on input line 345.
+(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
+ [30
+
+ <C:/Users/neal1/project/latex-ppt/graduation/figs/ps.png>]
+File: university-logo-ecnu.png Graphic file (type png)
+ <use university-logo-ecnu.png>
+Package pdftex.def Info: university-logo-ecnu.png used on input line 355.
+(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
+ [31
+
+]
+<figs/rm-meda-ag.png, id=1255, 418.56375pt x 115.02975pt>
+File: figs/rm-meda-ag.png Graphic file (type png)
+
+<use figs/rm-meda-ag.png>
+Package pdftex.def Info: figs/rm-meda-ag.png used on input line 374.
+(pdftex.def)             Requested size: 171.14764pt x 47.03436pt.
+File: university-logo-ecnu.png Graphic file (type png)
+ <use university-logo-ecnu.png>
+Package pdftex.def Info: university-logo-ecnu.png used on input line 374.
+(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
+ [32
+
+ <C:/Users/neal1/project/latex-ppt/graduation/figs/rm-meda-ag.png>]
+(C:\Users\neal1\project\latex-ppt\graduation\graduation.toc)
+File: university-logo-ecnu.png Graphic file (type png)
+
+<use university-logo-ecnu.png>
+Package pdftex.def Info: university-logo-ecnu.png used on input line 377.
+(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
+ [33
+
+]
+Package epstopdf Info: Source file: <figs/box/box_f1.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 12117 bytes
+(epstopdf)             Output file: <figs/box/box_f1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 4421 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/box/box_f1-eps-convert
+ed-to.pdf figs/box/box_f1.eps>
+(epstopdf)             \includegraphics on input line 389.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/box/box_f1-eps-converted-to.pdf, id=1327, 490.83376pt x 387.4475pt>
+File: figs/box/box_f1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/box/box_f1-eps-converted-to.pdf>
+Package pdftex.def Info: figs/box/box_f1-eps-converted-to.pdf used on input lin
+e 389.
+(pdftex.def)             Requested size: 88.99489pt x 70.24596pt.
+Package epstopdf Info: Source file: <figs/box/box_f2.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 12322 bytes
+(epstopdf)             Output file: <figs/box/box_f2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 4482 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/box/box_f2-eps-convert
+ed-to.pdf figs/box/box_f2.eps>
+(epstopdf)             \includegraphics on input line 389.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/box/box_f2-eps-converted-to.pdf, id=1328, 490.83376pt x 387.4475pt>
+File: figs/box/box_f2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/box/box_f2-eps-converted-to.pdf>
+Package pdftex.def Info: figs/box/box_f2-eps-converted-to.pdf used on input lin
+e 389.
+(pdftex.def)             Requested size: 88.99489pt x 70.24596pt.
+Package epstopdf Info: Source file: <figs/box/box_f3.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 12563 bytes
+(epstopdf)             Output file: <figs/box/box_f3-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 4620 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/box/box_f3-eps-convert
+ed-to.pdf figs/box/box_f3.eps>
+(epstopdf)             \includegraphics on input line 389.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/box/box_f3-eps-converted-to.pdf, id=1329, 490.83376pt x 387.4475pt>
+File: figs/box/box_f3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/box/box_f3-eps-converted-to.pdf>
+Package pdftex.def Info: figs/box/box_f3-eps-converted-to.pdf used on input lin
+e 389.
+(pdftex.def)             Requested size: 88.99489pt x 70.24596pt.
+Package epstopdf Info: Source file: <figs/box/box_f4.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 12137 bytes
+(epstopdf)             Output file: <figs/box/box_f4-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 4472 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/box/box_f4-eps-convert
+ed-to.pdf figs/box/box_f4.eps>
+(epstopdf)             \includegraphics on input line 389.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/box/box_f4-eps-converted-to.pdf, id=1330, 490.83376pt x 387.4475pt>
+File: figs/box/box_f4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/box/box_f4-eps-converted-to.pdf>
+Package pdftex.def Info: figs/box/box_f4-eps-converted-to.pdf used on input lin
+e 389.
+(pdftex.def)             Requested size: 88.99489pt x 70.24596pt.
+Package epstopdf Info: Source file: <figs/box/box_f5.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 12511 bytes
+(epstopdf)             Output file: <figs/box/box_f5-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 4550 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/box/box_f5-eps-convert
+ed-to.pdf figs/box/box_f5.eps>
+(epstopdf)             \includegraphics on input line 389.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/box/box_f5-eps-converted-to.pdf, id=1331, 490.83376pt x 387.4475pt>
+File: figs/box/box_f5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/box/box_f5-eps-converted-to.pdf>
+Package pdftex.def Info: figs/box/box_f5-eps-converted-to.pdf used on input lin
+e 389.
+(pdftex.def)             Requested size: 88.99489pt x 70.24596pt.
+File: university-logo-ecnu.png Graphic file (type png)
+ <use university-logo-ecnu.png>
+Package pdftex.def Info: university-logo-ecnu.png used on input line 389.
+(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
+
+[34
+
+ <C:/Users/neal1/project/latex-ppt/graduation/figs/box/box_f1-eps-converted-to.
+pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/box/box_f2-eps-converted
+-to.pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/box/box_f3-eps-conve
+rted-to.pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/box/box_f4-eps-c
+onverted-to.pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/box/box_f5-e
+ps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figs/box/box_f6.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 12651 bytes
+(epstopdf)             Output file: <figs/box/box_f6-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 4665 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/box/box_f6-eps-convert
+ed-to.pdf figs/box/box_f6.eps>
+(epstopdf)             \includegraphics on input line 402.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/box/box_f6-eps-converted-to.pdf, id=1375, 484.81125pt x 387.4475pt>
+File: figs/box/box_f6-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/box/box_f6-eps-converted-to.pdf>
+Package pdftex.def Info: figs/box/box_f6-eps-converted-to.pdf used on input lin
+e 402.
+(pdftex.def)             Requested size: 88.99489pt x 71.12093pt.
+Package epstopdf Info: Source file: <figs/box/box_f7.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 14146 bytes
+(epstopdf)             Output file: <figs/box/box_f7-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 5210 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/box/box_f7-eps-convert
+ed-to.pdf figs/box/box_f7.eps>
+(epstopdf)             \includegraphics on input line 402.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/box/box_f7-eps-converted-to.pdf, id=1376, 484.81125pt x 387.4475pt>
+File: figs/box/box_f7-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/box/box_f7-eps-converted-to.pdf>
+Package pdftex.def Info: figs/box/box_f7-eps-converted-to.pdf used on input lin
+e 402.
+(pdftex.def)             Requested size: 88.99489pt x 71.12093pt.
+Package epstopdf Info: Source file: <figs/box/box_f8.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 12515 bytes
+(epstopdf)             Output file: <figs/box/box_f8-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 4588 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/box/box_f8-eps-convert
+ed-to.pdf figs/box/box_f8.eps>
+(epstopdf)             \includegraphics on input line 402.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/box/box_f8-eps-converted-to.pdf, id=1377, 495.8525pt x 387.4475pt>
+File: figs/box/box_f8-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/box/box_f8-eps-converted-to.pdf>
+Package pdftex.def Info: figs/box/box_f8-eps-converted-to.pdf used on input lin
+e 402.
+(pdftex.def)             Requested size: 88.99489pt x 69.53653pt.
+Package epstopdf Info: Source file: <figs/box/box_f9.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 14251 bytes
+(epstopdf)             Output file: <figs/box/box_f9-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 5174 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/box/box_f9-eps-convert
+ed-to.pdf figs/box/box_f9.eps>
+(epstopdf)             \includegraphics on input line 402.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/box/box_f9-eps-converted-to.pdf, id=1378, 490.83376pt x 387.4475pt>
+File: figs/box/box_f9-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/box/box_f9-eps-converted-to.pdf>
+Package pdftex.def Info: figs/box/box_f9-eps-converted-to.pdf used on input lin
+e 402.
+(pdftex.def)             Requested size: 88.99489pt x 70.24596pt.
+Package epstopdf Info: Source file: <figs/box/box_f10.eps>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 13724 bytes
+(epstopdf)             Output file: <figs/box/box_f10-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    size: 5101 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/box/box_f10-eps-conver
+ted-to.pdf figs/box/box_f10.eps>
+(epstopdf)             \includegraphics on input line 402.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/box/box_f10-eps-converted-to.pdf, id=1379, 487.8225pt x 387.4475pt>
+File: figs/box/box_f10-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/box/box_f10-eps-converted-to.pdf>
+Package pdftex.def Info: figs/box/box_f10-eps-converted-to.pdf used on input li
+ne 402.
+(pdftex.def)             Requested size: 88.99489pt x 70.67754pt.
+File: university-logo-ecnu.png Graphic file (type png)
+ <use university-logo-ecnu.png>
+Package pdftex.def Info: university-logo-ecnu.png used on input line 402.
+(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
+
+[35
+
+ <C:/Users/neal1/project/latex-ppt/graduation/figs/box/box_f6-eps-converted-to.
+pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/box/box_f7-eps-converted
+-to.pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/box/box_f8-eps-conve
+rted-to.pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/box/box_f9-eps-c
+onverted-to.pdf> <C:/Users/neal1/project/latex-ppt/graduation/figs/box/box_f10-
+eps-converted-to.pdf>]
+(C:\Users\neal1\project\latex-ppt\graduation\graduation.toc)
+File: university-logo-ecnu.png Graphic file (type png)
+
+<use university-logo-ecnu.png>
+Package pdftex.def Info: university-logo-ecnu.png used on input line 405.
+(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
+ [36
+
+]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <60> not available
+(Font)              size <51.59> substituted on input line 421.
+
+File: university-logo-ecnu.png Graphic file (type png)
+<use university-logo-ecnu.png>
+Package pdftex.def Info: university-logo-ecnu.png used on input line 421.
+(pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
+ [37
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 423.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 423.
 
 (C:\Users\neal1\project\latex-ppt\graduation\graduation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 423.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 423.
+Package rerunfilecheck Info: File `graduation.out' has not changed.
+(rerunfilecheck)             Checksum: 289BA1C4D7DF5F3302E520ADB26551F0;1839.
 
-
-Package rerunfilecheck Warning: File `graduation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `graduation.out':
-(rerunfilecheck)             Before: BDDEB2FC8C0934CF2E77153C1A3B6494;1103
-(rerunfilecheck)             After:  919B21821BF6DC3560A4AA52F2948D16;1173.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 8.41pt have occurred.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20672 strings out of 495354
- 354170 string characters out of 3183858
- 459362 words of memory out of 3000000
- 23245 multiletter control sequences out of 15000+200000
- 41507 words of font info for 143 fonts, out of 3000000 for 9000
+ 20997 strings out of 495354
+ 361538 string characters out of 3183858
+ 461412 words of memory out of 3000000
+ 23495 multiletter control sequences out of 15000+200000
+ 51233 words of font info for 178 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,17n,63p,424b,1170s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,17n,63p,561b,1286s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/
 chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTe
 X/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun
@@ -1423,12 +1963,14 @@ n.ttf><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/CTEX/MiKTeX
 msfonts/cm/cmss10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb
 ><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/CTEX/MiKTeX/font
 s/type1/public/amsfonts/cm/cmss8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmssi10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/
-CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy8.pfb>
-Output written on graduation.pdf (25 pages, 1011936 bytes).
+s/cm/cmss9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/
+CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/CTEX/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmssi8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmssi9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on graduation.pdf (37 pages, 1353741 bytes).
 PDF statistics:
- 1047 PDF objects out of 1200 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
- 188 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1657 PDF objects out of 1728 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
+ 348 words of extra memory for PDF output out of 10000 (max. 10000000)
 

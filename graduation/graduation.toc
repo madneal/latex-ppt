@@ -9,3 +9,8 @@
 \beamer@subsectionintoc {3}{1}{全局单目标优化问题}{14}{0}{3}
 \beamer@subsectionintoc {3}{2}{基于差分采样的单目标分布估计算法}{16}{0}{3}
 \beamer@subsectionintoc {3}{3}{实验分析}{21}{0}{3}
+\beamer@sectionintoc {4}{基于差分采样的多目标优化}{26}{0}{4}
+\beamer@subsectionintoc {4}{1}{连续多目标问题}{26}{0}{4}
+\beamer@subsectionintoc {4}{2}{基于差分采样的多目标分布估计算法}{28}{0}{4}
+\beamer@subsectionintoc {4}{3}{实验分析}{33}{0}{4}
+\beamer@sectionintoc {5}{总结和展望}{36}{0}{5}
