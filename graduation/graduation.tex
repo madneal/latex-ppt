@@ -30,7 +30,7 @@
 
 \begin{document}
 \begin{CJK*}{GBK}{song}
-%p\captionsetup[figure]{labelfont={bf},labelformat={default},labelsep=period,name={图.}}
+\renewcommand{\figurename}{图} %重命名图例下标
 
     \title[差分采样]{分布估计算法中差分采样策略的研究}
     \author[董兵]{董兵\\{周爱民\quad 副教授}}
@@ -300,9 +300,15 @@
      \label{eda-deeig-fig1}
     \end{figure}
     \end{frame}
+
     \begin{frame}
- %   \begin{columns}
-%    \begin{column}{0.7\textwidth}
+    \begin{itemize}
+    \item 三个算法在$f6$测试题上都收敛地很早，因此不用折线图展示。
+    \item 和DE/EDA相比，EDA/DE-EIG具有较大的领先，在10个测试题上都具有较大幅度优势（除了$f7,f8$）
+    \item 和JADE相比，在$f1,f2,f3,f4,f11$ 5个测试题上在下降趋势和最终结果都有明显优势，在$f10,f12,f13$三个测试题上，下降趋势更佳，对于$f5$虽然最终结果不如JADE，但是下降趋势表现得更好，在$f7,f8,f9$ 3个测试题上表现得不如JADE。
+    \end{itemize}
+    \end{frame}
+    \begin{frame}
     \begin{figure}
     \center
     \graphicspath{{figs/}}
@@ -326,11 +332,11 @@
 
     其中，$x=(x_1, \cdots, x_n)^T\in R^n$ 是决策变量向量，$\Omega=\Pi_{i=1}^{n}[a_i, b_i] \subset R^n$ 表示可能的搜索空间区域，$f_i: R^n \rightarrow R, i=1, \cdots, m$ 是一个连续的目标函数，$F(x)$则是相应的目标函数向量。
     \end{frame}
-    
+
     \begin{frame}
     在多目标优化问题中，多个目标相互之间往往是冲突的，从而导致无法在满足所有约束条件下使得所有目标函数都能够达到全局最优解，但是存在一组Pareto最优解。
 
-    对于此，做出以下定义：令$a,b\in{R^n}$，当$a_i\le{b_i}\land{a\neq{b}}$，且$i=1,\cdots,n$，则称$a$ 支配$b$。向量$x^*\in\Omega$ 即是公式~\ref{mop}的Pareto最优解，如果不存在$x\in\Omega$ 使得$F(X)$ 支配$F(x^*)$。$F(x^*)$被称为Pareto最优目标向量。所有的Pareto 最优解的集合就是Pareto最优解集（PS），对应的最优向量的集合则成为Pareto前端（PF）。
+    对于此，做出以下定义：令$a,b\in{R^n}$，当$a_i\le{b_i}\land{a\neq{b}}$，且$i=1,\cdots,n$，则称$a$ 支配$b$。向量$x^*\in\Omega$ 即是公式~\ref{mop}的Pareto 最优解，如果不存在$x\in\Omega$ 使得$F(X)$ 支配$F(x^*)$。$F(x^*)$被称为Pareto最优目标向量。所有的Pareto 最优解的集合就是Pareto最优解集（PS），对应的最优向量的集合则成为Pareto前端（PF）。
     \end{frame}
 
     \begin{frame}
@@ -356,8 +362,6 @@
 
     \subsection{基于差分采样的多目标分布估计算法}
     \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
-
-
     \begin{frame}
     \begin{columns}
     \begin{column}{0.5\textwidth}

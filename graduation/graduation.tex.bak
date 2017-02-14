@@ -36,7 +36,7 @@
     \author[董兵]{董兵\\{周爱民\quad 副教授}}
 
     \institute[ECNU]{华东师范大学\par 计算机科学软件工程学院}
-    \date{January 2017}
+    \date{2017年2月}
     \logo{\includegraphics[height=0.5cm,width=3.0cm]{university-logo-ecnu}\vspace{230pt}}
 
     \begin{frame}
@@ -327,10 +327,10 @@
     其中，$x=(x_1, \cdots, x_n)^T\in R^n$ 是决策变量向量，$\Omega=\Pi_{i=1}^{n}[a_i, b_i] \subset R^n$ 表示可能的搜索空间区域，$f_i: R^n \rightarrow R, i=1, \cdots, m$ 是一个连续的目标函数，$F(x)$则是相应的目标函数向量。
     \end{frame}
 
-    \subsection{基于差分采样的多目标分布估计算法}
-    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
-    在多目标优化问题中，多个目标相互之间往往是冲突的，从而导致无法在满足所有约束条件下使得所有目标函数都能够达到全局最优解，但是存在一组Pareto最优解~\cite{moead}。 对于此，做出以下定义：令$a,b\in{R^n}$，当$a_i\le{b_i}\land{a\neq{b}}$，且$i=1,\cdots,n$，则称$a$ 支配$b$。向量$x^*\in\Omega$ 即是公式~\ref{mop}的Pareto最优解，如果不存在$x\in\Omega$ 使得$F(X)$ 支配$F(x^*)$。$F(x^*)$被称为Pareto最优目标向量。所有的Pareto 最优解的集合就是Pareto最优解集（PS），对应的最优向量的集合则成为Pareto前端（PF）。
+    在多目标优化问题中，多个目标相互之间往往是冲突的，从而导致无法在满足所有约束条件下使得所有目标函数都能够达到全局最优解，但是存在一组Pareto最优解。
+
+    对于此，做出以下定义：令$a,b\in{R^n}$，当$a_i\le{b_i}\land{a\neq{b}}$，且$i=1,\cdots,n$，则称$a$ 支配$b$。向量$x^*\in\Omega$ 即是公式~\ref{mop}的Pareto最优解，如果不存在$x\in\Omega$ 使得$F(X)$ 支配$F(x^*)$。$F(x^*)$被称为Pareto最优目标向量。所有的Pareto 最优解的集合就是Pareto最优解集（PS），对应的最优向量的集合则成为Pareto前端（PF）。
     \end{frame}
 
     \begin{frame}
@@ -354,6 +354,8 @@
     $\zeta$相当于是均匀分布在m-1维流体附近的个体，$\epsilon$是均值为0的n维的噪音向量。
     \end{frame}
 
+    \subsection{基于差分采样的多目标分布估计算法}
+    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
     \begin{columns}
     \begin{column}{0.5\textwidth}
@@ -521,7 +523,7 @@
       \centering
       \graphicspath{{figs/figure/}}
       \includegraphics[width=1.0\textwidth]{f_performance.eps}
-      \caption{}
+      \caption{Wilcoxon's rank test层叠柱状图}
       \label{bar}
     \end{figure}
     \end{column}
@@ -549,20 +551,21 @@
     \begin{figure}
     \centering
     \graphicspath{{figs/igd/}}
-    \subfigure[F7]{\includegraphics[ width=0.25\textwidth]{f7_igd.eps}}
-    \subfigure[F8]{\includegraphics[ width=0.25\textwidth]{f8_igd.eps}}
-    \subfigure[F9]{\includegraphics[ width=0.26\textwidth]{f9_igd.eps}}
-    \subfigure[F10]{\includegraphics[ width=0.26\textwidth]{f10_igd.eps}}
+    \subfigure[F7]{\includegraphics[ width=0.49\textwidth]{f7_igd.eps}}
+    \subfigure[F8]{\includegraphics[ width=0.49\textwidth]{f8_igd.eps}}
+    \subfigure[F9]{\includegraphics[ width=0.49\textwidth]{f9_igd.eps}}
+    \subfigure[F10]{\includegraphics[ width=0.49\textwidth]{f10_igd.eps}}
     \caption{IGD指标均值趋势图}
      \label{igd_com}
     \end{figure}
     \end{column}
     \begin{column}{0.4\textwidth}
     \begin{itemize}
-    \item 对于两个目标的测试题，DES-RM-MEDEA在测试题$F1,F2,F3,F6,F10$5个测试题上，无论是下降趋势还是最终结果都具有优势。尤其是在2个比较困难的测试题$F3$ 和$F10$，优势是比较显著的。对于$F9$,两个算法的表现几乎一致。在$F7$上，DES-RM-MEDA的表现在后面的阶段表现不太稳定。
-    \item 对于三个目标的测试题，DES-RM-MEDA在下降趋势和最终结果都处于领先。
+    \item 两个目标的测试题，DES-RM-MEDEA在测试题$F1,F2,F3,F6,F10$ 5个测试题上，无论是下降趋势还是最终结果都具有优势。对于$F9$,两个算法的表现几乎一致。在$F7$上，其表现在后阶段表现不太稳定。
+    \item 三个目标的测试题，DES-RM-MEDA在下降趋势和最终结果都处于领先。
     \end{itemize}
     \end{column}
+    \end{columns}
     \end{frame}
 
     \section{总结和展望}
