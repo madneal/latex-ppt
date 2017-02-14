@@ -18,8 +18,6 @@
 \usepackage{wrapfig}
 \usepackage{algorithm2e}
 \hypersetup{CJKbookmarks=true}
-\setbeamerfont*{section in head/foot}{size=\huge}
-\setbeamerfont*{subsection in head/foot}{size=\huge}
 \usetheme{CambridgeUS}
 \usecolortheme[named=red]{structure}
 \setbeamertemplate{items}[square]
@@ -29,7 +27,6 @@
 \newenvironment{reference}[2]{%
   \begin{textblock*}{\textwidth}(#1,#2)
      \bgroup\fontsize{6pt}{\baselineskip}\selectfont\color[RGB]{0,112,192}}{\egroup\end{textblock*}}
-\setbeamerfont{section}{\Large}
 
 \begin{document}
 \begin{CJK*}{GBK}{song}
@@ -75,7 +72,19 @@
     \includegraphics[width=0.7\textwidth]{eda.png}
     \caption{分布估计算法}
     \end{figure}
-
+    \end{frame}
+    
+    \begin{frame}
+    分布估计算法中差分采样存在以下问题：
+    \begin{itemize}
+    \item 建立什么样的模型来采样
+    \item 如何来更新模型
+    \end{itemize}
+    差分采样策略的意义：
+    \begin{itemize}
+    \item 差分进化简单有效，并且易于和其它算法结合
+    \item 差分采样策略能有效提高种群多样性
+    \end{itemize}
     \end{frame}
 
     \subsection{主要研究内容}
@@ -166,7 +175,7 @@
     \subsection{全局单目标优化问题}
     \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
-    单目标优化问题几乎出现在科学和工程应用的各个领域中。单目标优化问题的目标函数一般是非凸函数，并且在可行区域内具有很多的局部极小值或者极大值。本文研究的单目标优化问题针对的是连续空间的全局优化问题，即是求目标函数的最小值或者最大值。
+    单目标优化问题几乎出现在科学和工程应用的各个领域中。本文研究的单目标优化问题针对的是连续空间的全局优化问题，即是求目标函数的最小值或者最大值。
 
     对于全局优化问题在本文做出以下定义：
     \begin{equation}

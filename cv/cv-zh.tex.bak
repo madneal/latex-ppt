@@ -1,0 +1,114 @@
+\documentclass[11pt,a4paper,nolmodern]{moderncv}
+\usepackage[noindent,UTF8]{ctex}
+\usepackage{info}
+
+\title{清华大学软件学院}
+\myquote{自强不息，厚德载物。}{}
+
+\begin{document}
+\setmainfont{Minion Pro}
+\setsansfont{Myriad Pro}
+
+\hyphenpenalty=10000
+\maketitle
+
+\section{教育背景}
+\tlcventry{2009}{0}{清华大学（THU），软件学院（SS），本科在读，2013年毕业}{}{}{}{
+\begin{itemize}
+  \item 大三学年排名：1/54，GPA：93.8/100
+  \item 全部学期排名：3/54，GPA：90.8/100
+  \item 2011年，清华大学综合优秀奖学金
+  \item 2010年，清华大学综合优秀奖学金
+\end{itemize}}
+
+\section{能力}
+\subsection{开发}
+\cvcomputer{语言}{C/C++, C\#, Python, Java, JavaScript}
+           {Web}{HTML, ASP .Net, jQuery, AJAX}
+\cvcomputer{框架}{Django}
+           {数据库}{MySQL, SQL Server, MongoDB, Redis}
+\cvcomputer{代码管理}{SVN, Git}
+           {工具}{Redmine, GitHub}
+
+\subsection{其他}
+\cvcomputer{Office}{iWork, OpenOffice/LibreOffice, Microsoft Office}
+           {操作系统}{Mac OS X, GNU/Linux(Ubuntu, Mint), Windows}
+\cvcomputer{排版}{\XeLaTeX{}}
+           {编辑器}{Sublime Text，VIM}
+
+\section{经历}
+\subsection{实习经历}
+\tldatelabelcventry{2012}{2012夏}{台湾国立清华大学IDEA实验室}{}{}{}{
+  \begin{itemize}
+    \item 研究n-gram模型在中文情感分析中的性能
+  \end{itemize}
+}
+\vspace{0.5em}
+\tldatelabelcventry{2012}{2012春}{清华大学软件学院信息系统与工程研究所}{}{}{}{
+  \begin{itemize}
+    \item 参与盘古搜索项目中OCR模块的代码修改工作
+  \end{itemize}
+}
+
+\subsection{项目经历}
+\tlcventry{2011}{0}{人人网应用——清华晒课厅}{}{}{}{
+\begin{itemize}
+ \item 使用ASP .Net + SQL Server开发
+ \item 应用安装量超过10000
+\end{itemize}}
+\vspace{0.5em}
+\tlcventry{2009}{0}{其他课程项目、研究}{}{}{}{
+\begin{itemize}
+ \item 使用LDA和Collaborative的方法实现了文章推荐系统
+ \item 使用Node.js、MongoDB和Redis实现了基于地理位置信息的移动应用程序
+ \item 使用Lex和Yacc完成了简单Python程序到C\#的翻译器——Py\#（\href{https://github.com/terro/Py-Sharp}{GitHub链接}）
+ \item 在教学用操作系统xv6中使用FAT32替换了原有的简单文件系统
+ \item 完成了基于Qt4的嵌入式MP3播放器的设计与实现（\href{https://github.com/terro/A-Simple-Embedded-MP3-Player-Based-On-ARM-9}{GitHub链接}）
+ \item 完成了具有加密、硬件信息测试功能的MBR开发
+ \item 阅读了HyperSQL数据库源代码，并从存储、查询、事务、并发和恢复等方面对代码进行了分析
+ \item 使用VHDL及C在Spartan-II 300E LC上完成了基于串口通信及LCD屏幕的猜拳游戏
+ \item 使用TI MSP430单片机完成了基于超声波测距模块的距离和速度测量装置
+\end{itemize}}
+
+\subsection{社会工作}
+\tlcventry{2011}{0}{清华大学软件学院学生科协副主席、主席}{}{}{}{
+\begin{itemize}
+ \item 主管软件学院科协的各项工作
+\end{itemize}}
+\vspace{0.5em}
+\tlcventry{2011}{0}{清华大学勤工助学大队信息系统服务部部长}{}{}{}{
+\begin{itemize}
+ \item 协调部门内各项目组和队员的工作
+\end{itemize}}
+\vspace{0.5em}
+\tlcventry{2010}{2011}{清华大学软件学院学生科协赛事部部长}{}{}{}{
+\begin{itemize}
+ \item 北京市高校软件设计邀请赛主办方负责人
+ \item 组织、主办大一新生算法班
+ \item 获清华大学学生科协优秀学生干部称号
+\end{itemize}}
+
+\subsection{公益活动}
+\tlcventry{2009}{0}{首都机场志愿者、中国科技馆志愿者、中网志愿者}{}{}{}{
+\begin{itemize}
+ \item 累计完成志愿服务89小时
+ \item 获清华大学三星志愿者称号
+\end{itemize}}
+\vspace{0.5em}
+\tldatelabelcventry{2010}{2010夏}{中美联合支教赴青海乐都支教活动}{}{}{}{
+\begin{itemize}
+ \item 在青海乐都高级实验中学支教10天
+\end{itemize}}
+
+\section{语言}
+\cvlanguage{汉语}{母语}{}
+\cvlanguage{英语}{熟练}{通过全国大学英语四级考试，通过清华大学英语水平一考试}
+
+\section{个人兴趣}
+
+\cvhobby{运动}{游泳}
+\cvhobby{互联网}{\href{https://twitter.com/terro1991}{Twitter}, \href{http://facebook.com/dangfan}{facebook}, \href{http://github.com/terro}{GitHub}, stackoverflow}
+\cvhobby{其他}{旅游，读书，摄影}
+
+\end{document}
+
