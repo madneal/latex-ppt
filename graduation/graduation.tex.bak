@@ -18,6 +18,8 @@
 \usepackage{wrapfig}
 \usepackage{algorithm2e}
 \hypersetup{CJKbookmarks=true}
+\setbeamerfont*{section in head/foot}{size=\huge}
+\setbeamerfont*{subsection in head/foot}{size=\huge}
 \usetheme{CambridgeUS}
 \usecolortheme[named=red]{structure}
 \setbeamertemplate{items}[square]
@@ -27,10 +29,12 @@
 \newenvironment{reference}[2]{%
   \begin{textblock*}{\textwidth}(#1,#2)
      \bgroup\fontsize{6pt}{\baselineskip}\selectfont\color[RGB]{0,112,192}}{\egroup\end{textblock*}}
+\setbeamerfont{section}{\Large}
 
 \begin{document}
 \begin{CJK*}{GBK}{song}
-%p\captionsetup[figure]{labelfont={bf},labelformat={default},labelsep=period,name={图.}}
+\renewcommand{\figurename}{图} %重命名图例下标
+
 
     \title[差分采样]{分布估计算法中差分采样策略的研究}
     \author[董兵]{董兵\\{周爱民\quad 副教授}}
@@ -77,11 +81,11 @@
     \subsection{主要研究内容}
     \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
-
+    {\large 主要工作}
     \begin{itemize}
     \item 受差分进化启发，提出一种基于差分进化的采样策略，即差分采样策略。
-    \item 对于单目标优化问题，利用基于特征向量的差分进化去改进采样，通过expensive Local Search进一步改进解集质量，提出基于差分采样的单目标分布估计算法。
-    \item 对于多目标优化问题，利用差分采样策略去改进RM-MEDA的采样，提出基于差分采样的多目标分布估计算法。
+    \item 对于单目标优化问题，利用基于特征向量的差分进化去改进采样，通过expensive Local Search进一步改进解集质量，提出\textbf{基于差分采样的单目标分布估计算法}。
+    \item 对于多目标优化问题，利用差分采样策略去改进RM-MEDA的采样，提出\textbf{基于差分采样的多目标分布估计算法}。
     \end{itemize}
     \end{frame}
 
@@ -108,7 +112,7 @@
     \end{frame}
 
     \begin{frame}
-    {\Large 研究现状：}根据问题的不同类型，可以将分布估计算法分成以下几类：
+    {\large 研究现状：}根据问题的不同类型，可以将分布估计算法分成以下几类：
     \begin{itemize}
     \item 基于离散变量的分布估计算法
     \item 基于遗传编程的分布估计算法
@@ -148,10 +152,11 @@
     \end{frame}
 
     \begin{frame}
+    {\large 研究现状}
     差分进化自从提出后，就受到了工业界以及学业界的广泛专注。根据差分进化解决的问题类型，可以将差分进化分为以下几种类型：
     \begin{itemize}
     \item 针对连续单目标优化问题的差分进化算法
-    \item 针对约束优化的差分进化算法
+    \item 针对约束优化问题的差分进化算法
     \item 针对多目标优化问题的差分进化算法
     \end{itemize}
     \end{frame}
@@ -177,6 +182,7 @@
     \subsection{基于差分采样的单目标分布估计算法}
     \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
+    {\large DE-EIG算法}
     \begin{columns}
     \begin{column}{0.5\textwidth}
     \begin{figure}
@@ -195,6 +201,7 @@
     \end{frame}
 
     \begin{frame}
+    {\large DE/EDA算法}
     \begin{columns}
     \begin{column}{0.5\textwidth}
     \begin{figure}
@@ -300,9 +307,15 @@
      \label{eda-deeig-fig1}
     \end{figure}
     \end{frame}
+
     \begin{frame}
- %   \begin{columns}
-%    \begin{column}{0.7\textwidth}
+    \begin{itemize}
+    \item 三个算法在$f6$测试题上都收敛得很早，因此不用折线图展示。
+    \item 和DE/EDA相比，EDA/DE-EIG具有较大的领先，在10个测试题上都具有较大幅度优势（除了$f7,f8$）。
+    \item 和JADE相比，在$f1,f2,f3,f4,f11$ 5个测试题上在下降趋势和最终结果都有明显优势，在$f10,f12,f13$三个测试题上，下降趋势更佳，对于$f5$虽然最终结果不如JADE，但是下降趋势表现得更好，在$f7,f8,f9$ 3个测试题上表现得不如JADE。
+    \end{itemize}
+    \end{frame}
+    \begin{frame}
     \begin{figure}
     \center
     \graphicspath{{figs/}}
@@ -330,7 +343,7 @@
     \begin{frame}
     在多目标优化问题中，多个目标相互之间往往是冲突的，从而导致无法在满足所有约束条件下使得所有目标函数都能够达到全局最优解，但是存在一组Pareto最优解。
 
-    对于此，做出以下定义：令$a,b\in{R^n}$，当$a_i\le{b_i}\land{a\neq{b}}$，且$i=1,\cdots,n$，则称$a$ 支配$b$。向量$x^*\in\Omega$ 即是公式~\ref{mop}的Pareto最优解，如果不存在$x\in\Omega$ 使得$F(X)$ 支配$F(x^*)$。$F(x^*)$被称为Pareto最优目标向量。所有的Pareto 最优解的集合就是Pareto最优解集（PS），对应的最优向量的集合则成为Pareto前端（PF）。
+    对于此，做出以下定义：令$a,b\in{R^n}$，当$a_i\le{b_i}\land{a\neq{b}}$，且$i=1,\cdots,n$，则称$a$ 支配$b$。向量$x^*\in\Omega$ 即是公式~\ref{mop}的Pareto 最优解，如果不存在$x\in\Omega$ 使得$F(X)$ 支配$F(x^*)$。$F(x^*)$被称为Pareto最优目标向量。所有的Pareto 最优解的集合就是Pareto最优解集（PS），对应的最优向量的集合则成为Pareto前端（PF）。
     \end{frame}
 
     \begin{frame}
@@ -375,29 +388,29 @@
     \end{columns}
     \end{frame}
 
-    \begin{frame}
-    假设$\xi$由$k$个流体$M^1,\cdots,M^k$ 组成，每一个流体是一个超矩形。通过LPCA 将种群划分为$k$个聚类：$C_1,\cdots, C_k$。 令$S$为$R^n$ 的有限子集，则定义子集$C$ 的均值为：
-    \begin{equation}
-    \label{C}
-    \overline{x}=\frac{1}{|C|}\sum_{x\in{C}}x
-    \end{equation}
-
-    接着求得集合$C$里面个体的协方差矩阵：
-
-    \begin{equation}
-    \label{cov}
-    Cov=\frac{1}{|C|-1}\sum_{x\in{C}}(x-\overline{x})(x-\overline{x})^T
-    \end{equation}
-
-    第$i$个主成分$U^i$是协方差矩阵$Cov$中第$i$个最大的特征值对应的特征向量。接着，$C$ 中个体的$(m-1)$维的主子空间仿射可以定义为：
-
-    \begin{equation}
-    \label{Ui}
-    \left\{
-    x\in{R^n}, x=\overline{x}+\sum^{m-1}_{i=1}\theta_i\cdot{U^i},\theta_i\in{R}, i=1,\cdots,m-1
-    \right\}
-    \end{equation}
-    \end{frame}
+%    \begin{frame}
+%    假设$\xi$由$k$个流体$M^1,\cdots,M^k$ 组成，每一个流体是一个超矩形。通过LPCA 将种群划分为$k$个聚类：$C_1,\cdots, C_k$。 令$S$为$R^n$ 的有限子集，则定义子集$C$ 的均值为：
+%    \begin{equation}
+%    \label{C}
+%    \overline{x}=\frac{1}{|C|}\sum_{x\in{C}}x
+%    \end{equation}
+%
+%    接着求得集合$C$里面个体的协方差矩阵：
+%
+%    \begin{equation}
+%    \label{cov}
+%    Cov=\frac{1}{|C|-1}\sum_{x\in{C}}(x-\overline{x})(x-\overline{x})^T
+%    \end{equation}
+%
+%    第$i$个主成分$U^i$是协方差矩阵$Cov$中第$i$个最大的特征值对应的特征向量。接着，$C$ 中个体的$(m-1)$维的主子空间仿射可以定义为：
+%
+%    \begin{equation}
+%    \label{Ui}
+%    \left\{
+%    x\in{R^n}, x=\overline{x}+\sum^{m-1}_{i=1}\theta_i\cdot{U^i},\theta_i\in{R}, i=1,\cdots,m-1
+%    \right\}
+%    \end{equation}
+%    \end{frame}
 
     \begin{frame}
     LPCA通过最小化以下误差函数的最小值来将种群划分聚类：
@@ -572,10 +585,14 @@
     \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
 
     \begin{frame}
+
     \begin{itemize}
-    \item 本文针对分布估计算法中的采样，提出了差分采样策略，对于单目标优化问题和多目标优化问题分别提出了基于差分采样的单目标分布估计算法和基于差分采样的多目标分布估计算法。通过综合的实验分析对比，差分采样策略对于提高分布估计算法性能具有重大意义。
-    \textcolor{red}{\hrule}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \item 本文针对分布估计算法中的采样，提出了差分采样策略，对于单目标优化问题和多目标优化问题分别提出了基于差分采样的单目标分布估计算法和基于差分采样的多目标分布估计算法。通过综合的实验分析，差分采样策略对于提高分布估计算法性能具有重大意义。
     \end{itemize}
+    \vspace{1em}
     当然本文的工作还有一些不足之处，因此做以下几点展望：
 
     \begin{itemize}

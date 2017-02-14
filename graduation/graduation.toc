@@ -12,5 +12,5 @@
 \beamer@sectionintoc {4}{基于差分采样的多目标优化}{27}{0}{4}
 \beamer@subsectionintoc {4}{1}{连续多目标问题}{27}{0}{4}
 \beamer@subsectionintoc {4}{2}{基于差分采样的多目标分布估计算法}{32}{0}{4}
-\beamer@subsectionintoc {4}{3}{实验分析}{38}{0}{4}
-\beamer@sectionintoc {5}{总结和展望}{44}{0}{5}
+\beamer@subsectionintoc {4}{3}{实验分析}{37}{0}{4}
+\beamer@sectionintoc {5}{总结和展望}{43}{0}{5}
