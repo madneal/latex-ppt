@@ -75,11 +75,12 @@
     \end{frame}
     
     \begin{frame}
-    分布估计算法中差分采样存在以下问题：
+    分布估计算法中传统采样存在以下问题：
     \begin{itemize}
     \item 建立什么样的模型来采样
     \item 如何来更新模型
     \end{itemize}
+    \vspace{2em}
     差分采样策略的意义：
     \begin{itemize}
     \item 差分进化简单有效，并且易于和其它算法结合
