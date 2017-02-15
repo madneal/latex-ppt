@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  15 FEB 2017 09:48
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  15 FEB 2017 13:27
 entering extended mode
-**C:/Users/neal1/project/latex-ppt/graduation/graduation.tex
-(C:/Users/neal1/project/latex-ppt/graduation/graduation.tex
+**graduation.tex
+(C:\Users\neal1\project\latex-ppt\graduation\graduation.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (C:\CTEX\MiKTeX\tex\latex\beamer\base\beamer.cls
@@ -2284,9 +2284,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 630.
 (C:\Users\neal1\project\latex-ppt\graduation\graduation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 630.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 630.
-Package rerunfilecheck Info: File `graduation.out' has not changed.
-(rerunfilecheck)             Checksum: 004DB36E914752C65AA8C157E16433D4;1839.
 
+
+Package rerunfilecheck Warning: File `graduation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `graduation.out':
+(rerunfilecheck)             Before: 85FBB62EC1BFDDAF90562399CC3182AC;1725
+(rerunfilecheck)             After:  004DB36E914752C65AA8C157E16433D4;1839.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 8.41pt have occurred.
@@ -2296,13 +2302,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21218 strings out of 495354
- 366496 string characters out of 3183858
+ 21217 strings out of 495354
+ 366477 string characters out of 3183858
  464955 words of memory out of 3000000
- 23672 multiletter control sequences out of 15000+200000
+ 23671 multiletter control sequences out of 15000+200000
  52696 words of font info for 183 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,17n,63p,468b,1378s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,17n,63p,424b,1378s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/
 chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTe
 X/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun
@@ -2332,7 +2338,7 @@ s/cm/cmss9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/C
 TEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/CTEX/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmssi9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on graduation.pdf (46 pages, 1633325 bytes).
+Output written on graduation.pdf (46 pages, 1633359 bytes).
 PDF statistics:
  1994 PDF objects out of 2073 (max. 8388607)
  123 named destinations out of 1000 (max. 500000)

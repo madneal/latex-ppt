@@ -73,7 +73,7 @@
     \caption{分布估计算法}
     \end{figure}
     \end{frame}
-    
+
     \begin{frame}
     分布估计算法中传统采样存在以下问题：
     \begin{itemize}
@@ -147,12 +147,11 @@
 
     常用的变异策略：
     \begin{itemize}
-    \item DE/rand/1
-    \item DE/best/1
-    \item DE/rand/2
-    \item DE/best/2
-    \item DE/current-to-best/1
-    \item DE/current-to0rand/1
+    \item DE/rand/1/bin
+    \item DE/best/1/bin
+    \item DE/rand/2/bin
+    \item DE/best/2/bin
+    \item DE/current-to-best/1/bin
     \end{itemize}
     \item 交叉操作：利用交叉算子结合变异向量和目标向量来产生实验向量。
     \item 选择：利用一对一的竞争机制从目标向量和试验向量中挑选个体。
