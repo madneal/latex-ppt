@@ -153,7 +153,7 @@
     \item DE/best/2/bin
     \item DE/current-to-best/1/bin
     \end{itemize}
-    \item 交叉操作：利用交叉算子结合变异向量和目标向量来产生实验向量。
+    \item 交叉操作：利用交叉算子结合变异向量和目标向量来产生试验向量。
     \item 选择：利用一对一的竞争机制从目标向量和试验向量中挑选个体。
     \end{itemize}
     \end{column}
@@ -222,7 +222,7 @@
     \begin{column}{0.5\textwidth}
     \begin{itemize}
     \item DE/EDA是一种结合差分进化和分布估计算法来解决全局连续优化问题。
-    \item DE/EDA通过利用分布估计算法可以提取种群全局信息和差分进化可以提取种群查分信息的优点，是一种非常具有研究前景的算法。
+    \item DE/EDA通过利用分布估计算法可以提取种群全局信息和差分进化可以提取种群差分信息的优点，是一种非常具有研究前景的算法。
     \end{itemize}
     \end{column}
     \end{columns}
@@ -269,7 +269,7 @@
     \begin{column}{0.5\textwidth}
     \begin{itemize}
     \item 为了增加种群的多样性，通过利用随机参数来设置$CRP$，可以提高算法对于大多数问题的鲁棒性。
-    \item 在基于DE/EDA算法框架的基础上，利用DE-EIG进行采样，同时结合expensive LS 进一步提高解集质量，提出基于差分采样的单目标分布估计算法。
+    \item 在基于DE/EDA算法框架的基础上，利用DE-EIG进行采样，同时结合expensive LS进一步提高解集质量，提出基于差分采样的单目标分布估计算法。
     \end{itemize}
     \end{column}
     \end{columns}
@@ -356,7 +356,7 @@
     \end{frame}
 
     \begin{frame}
-    在一般条件下，根据Karush-Kuhn-Tucker 可以推导出：连续多目标问题在决策空间中的Pareto set 是一个连续分段的（m-1）维的流形体（m是目标数）。对于一个成功的多目标演化算法（multiobjective evolutionary algorithm, MOEA）来说，独立的个体应该是在决策空间中分散在Pareto set 附近，如图~\ref{FIG1} 所示。
+    在一般条件下，根据Karush-Kuhn-Tucker 可以推导出：连续多目标问题在决策空间中的Pareto解集是一个连续分段的（m-1）维的流形体（m是目标数）。对于一个成功的多目标演化算法（multiobjective evolutionary algorithm, MOEA）来说，独立的个体应该是在决策空间中分散在Pareto解集附近，如图~\ref{FIG1} 所示。
     \begin{figure}[ht]
     \graphicspath{{figs/}}
     \centering
@@ -367,7 +367,7 @@
     \end{frame}
 
     \begin{frame}
-    对于连续多目标问题，在决策空间中，种群体中的个体如果越接近Pareto set，则越容易进行问题的求解。因此，假设种群中的个体为随机向量$\xi\in{R}^D$ 的观测值，$\xi$的中央部分就是Pareto set。 并且因为在连续多目标问题中，Pareto set是一个m-1维的流体，那么$\xi$ 则可以由公式~\ref{model}表示：
+    对于连续多目标问题，在决策空间中，种群体中的个体如果越接近Pareto解集，则越容易进行问题的求解。因此，假设种群中的个体为随机向量$\xi\in{R}^D$ 的观测值，$\xi$的中央部分就是Pareto解集。 并且因为在连续多目标问题中，Pareto解集是一个m-1维的流体，那么$\xi$ 则可以由公式~\ref{model}表示：
     \begin{equation}
     \label{model}
       \xi=\zeta+\epsilon
@@ -447,14 +447,14 @@
     \graphicspath{{figs/}}
     \centering
       \includegraphics[width=0.9\columnwidth]{pareto.png}
-      \caption{通过缩放比例来覆盖Pareto set}
+      \caption{通过缩放比例来覆盖Pareto解集}
       \label{pareto}
     \end{figure}
     \end{column}
     \begin{column}{0.5\textwidth}
     \begin{itemize}
-    \item 在每一个聚类之中，$N^k$用来表示聚类中的Pareto set，$M^k$则用来覆盖每个聚类中的Pareto set。
-    \item 为了能够覆盖聚类中的Pareto set，RM-MEDA通过设置一个缩放比例用来覆盖聚类中的Pareto set。但是这个缩放比例依赖于具体的问题，对于不同的问题，其表现也不尽相同。
+    \item 在每一个聚类之中，$N^k$用来表示聚类中的Pareto解集，$M^k$则用来覆盖每个聚类中的Pareto解集。
+    \item 为了能够覆盖聚类中的Pareto解集，RM-MEDA通过设置一个缩放比例用来覆盖聚类中的Pareto解集。但是这个缩放比例依赖于具体的问题，对于不同的问题，其表现也不尽相同。
     \end{itemize}
     \end{column}
     \end{columns}
