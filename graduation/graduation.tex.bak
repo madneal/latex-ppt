@@ -356,7 +356,7 @@
     \end{frame}
 
     \begin{frame}
-    在一般条件下，根据Karush-Kuhn-Tucker 可以推导出：连续多目标问题在决策空间中的Pareto解集是一个连续分段的（m-1）维的流形体（m是目标数）。对于一个成功的多目标演化算法（multiobjective evolutionary algorithm, MOEA）来说，独立的个体应该是在决策空间中分散在Pareto解集附近，如图~\ref{FIG1} 所示。
+    在一般条件下，根据Karush-Kuhn-Tucker条件可以推导出：连续多目标问题在决策空间中的Pareto解集是一个连续分段的（m-1）维的流形体（m是目标数）。对于一个成功的多目标演化算法（multiobjective evolutionary algorithm, MOEA）来说，独立的个体应该是在决策空间中分散在Pareto解集附近，如图~\ref{FIG1} 所示。
     \begin{figure}[ht]
     \graphicspath{{figs/}}
     \centering
@@ -441,6 +441,7 @@
     \end{frame}
 
     \begin{frame}
+    {\large 存在的问题}
     \begin{columns}
     \begin{column}{0.5\textwidth}
     \begin{figure}
@@ -485,6 +486,27 @@
     \item 通过特征向量将种群转换到隐空间中，在隐空间中利用新型的变异策略完成变异操作，在将种群映射到原始空间中。
     \item 利用差分采样策略来取代分布估计算法中原有的建模采样。
     \end{itemize}
+    \end{frame}
+    
+    \begin{frame}
+    {\large 基于差分采样的多目标分布计算法}
+    \begin{columns}
+    \begin{column}{0.5\textwidth}
+    \begin{figure}[ht]
+    \graphicspath{{figs/}}
+    \centering
+      \includegraphics[width=0.8\columnwidth]{des-rm-meda.png}
+      \caption{DES-RM-MEDA}
+      \label{mutation}
+    \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+    \begin{itemize}
+    \item 利用差分采样策略来改进多目标分布估计算法的的采样，有效提高算法性能
+    \item 123123123
+    \end{itemize}
+    \end{column}
+    \end{columns}
     \end{frame}
 
     \subsection{实验分析}

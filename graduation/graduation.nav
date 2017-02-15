@@ -94,33 +94,35 @@
 \headcommand {\beamer@framepages {36}{36}}
 \headcommand {\slideentry {4}{2}{5}{37/37}{基于差分采样的多目标分布估计算法}{0}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\beamer@subsectionentry {0}{4}{3}{38}{实验分析}}\headcommand {\beamer@subsectionpages {33}{37}}
-\headcommand {\slideentry {4}{3}{1}{38/38}{实验分析}{0}}
+\headcommand {\slideentry {4}{2}{6}{38/38}{基于差分采样的多目标分布估计算法}{0}}
 \headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {4}{3}{2}{39/39}{实验分析}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{39}{实验分析}}\headcommand {\beamer@subsectionpages {33}{38}}
+\headcommand {\slideentry {4}{3}{1}{39/39}{实验分析}{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {4}{3}{3}{40/40}{实验分析}{0}}
+\headcommand {\slideentry {4}{3}{2}{40/40}{实验分析}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {4}{3}{4}{41/41}{实验分析}{0}}
+\headcommand {\slideentry {4}{3}{3}{41/41}{实验分析}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\slideentry {4}{3}{5}{42/42}{实验分析}{0}}
+\headcommand {\slideentry {4}{3}{4}{42/42}{实验分析}{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\slideentry {4}{3}{6}{43/43}{实验分析}{0}}
+\headcommand {\slideentry {4}{3}{5}{43/43}{实验分析}{0}}
 \headcommand {\beamer@framepages {43}{43}}
-\headcommand {\sectionentry {5}{总结和展望}{44}{总结和展望}{0}}
-\headcommand {\beamer@sectionpages {28}{43}}
-\headcommand {\beamer@subsectionpages {38}{43}}
-\headcommand {\slideentry {5}{0}{7}{44/44}{}{0}}
+\headcommand {\slideentry {4}{3}{6}{44/44}{实验分析}{0}}
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\slideentry {5}{0}{8}{45/45}{}{0}}
+\headcommand {\sectionentry {5}{总结和展望}{45}{总结和展望}{0}}
+\headcommand {\beamer@sectionpages {28}{44}}
+\headcommand {\beamer@subsectionpages {39}{44}}
+\headcommand {\slideentry {5}{0}{7}{45/45}{}{0}}
 \headcommand {\beamer@framepages {45}{45}}
-\headcommand {\sectionentry {6}{thx}{46}{thx}{0}}
-\headcommand {\beamer@sectionpages {44}{45}}
-\headcommand {\beamer@subsectionpages {44}{45}}
-\headcommand {\slideentry {6}{0}{9}{46/46}{}{0}}
+\headcommand {\slideentry {5}{0}{8}{46/46}{}{0}}
 \headcommand {\beamer@framepages {46}{46}}
-\headcommand {\beamer@partpages {1}{46}}
-\headcommand {\beamer@subsectionpages {1}{46}}
-\headcommand {\beamer@sectionpages {1}{46}}
-\headcommand {\beamer@documentpages {46}}
-\headcommand {\def \inserttotalframenumber {46}}
+\headcommand {\sectionentry {6}{thx}{47}{thx}{0}}
+\headcommand {\beamer@sectionpages {45}{46}}
+\headcommand {\beamer@subsectionpages {45}{46}}
+\headcommand {\slideentry {6}{0}{9}{47/47}{}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\beamer@partpages {1}{47}}
+\headcommand {\beamer@subsectionpages {1}{47}}
+\headcommand {\beamer@sectionpages {1}{47}}
+\headcommand {\beamer@documentpages {47}}
+\headcommand {\def \inserttotalframenumber {47}}
