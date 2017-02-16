@@ -61,12 +61,22 @@
     \caption{演化算法流程图}
     \end{figure}
     \end{frame}
+    
+%    \begin{frame}
+%    分布估计算法是一种新型的演化算法，传统的分布估计算法主要由三个步骤组成：建模、采样、选择。
+%
+%    \begin{figure}[H]
+%    \graphicspath{{figs/}}
+%    \includegraphics[width=0.7\textwidth]{eda1.png}
+%    \caption{分布估计算法}
+%    \end{figure}
+%    \end{frame}
 
 
     \begin{frame}
     分布估计算法是一种新型的演化算法，传统的分布估计算法主要由三个步骤组成：建模、采样、选择。
 
-    本文的研究目的是利用\textbf{差分采样策略}来取代分布估计算法传统的建模采样，从而提高算法的性能。
+    本文的研究目的是利用\textbf{差分采样策略}来取代分布估计算法传统的建模采样。传统的采样是通过从建立的概率模型来进行采样，利用差分采样策略可以有效提高种群多样性，减少对概率模型的依赖，有效提高算法性能。
     \begin{figure}[H]
     \graphicspath{{figs/}}
     \includegraphics[width=0.7\textwidth]{eda.png}
@@ -74,19 +84,19 @@
     \end{figure}
     \end{frame}
 
-    \begin{frame}
-    分布估计算法中传统采样存在以下问题：
-    \begin{itemize}
-    \item 建立什么样的模型来采样
-    \item 如何来更新模型
-    \end{itemize}
-    \vspace{2em}
-    差分采样策略的意义：
-    \begin{itemize}
-    \item 差分进化简单有效，并且易于和其它算法结合
-    \item 差分采样策略能有效提高种群多样性
-    \end{itemize}
-    \end{frame}
+%    \begin{frame}
+%    分布估计算法中传统采样存在以下问题：
+%    \begin{itemize}
+%    \item 建立什么样的模型来采样
+%    \item 如何来更新模型
+%    \end{itemize}
+%    \vspace{2em}
+%    差分采样策略的意义：
+%    \begin{itemize}
+%    \item 差分进化简单有效，并且易于和其它算法结合
+%    \item 差分采样策略能有效提高种群多样性
+%    \end{itemize}
+%    \end{frame}
 
     \subsection{主要研究内容}
     \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
@@ -103,6 +113,7 @@
     \subsection{分布估计算法}
     \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
+    {\large 分布估计算法}
     \begin{columns}
     \begin{column}{0.5\textwidth}
     \begin{figure}[H]
@@ -121,18 +132,19 @@
 
     \end{frame}
 
-    \begin{frame}
-    {\large 研究现状：}根据问题的不同类型，可以将分布估计算法分成以下几类：
-    \begin{itemize}
-    \item 基于离散变量的分布估计算法
-    \item 基于遗传编程的分布估计算法
-    \item 多目标分布估计算法
-    \end{itemize}
-    \end{frame}
+%    \begin{frame}
+%    {\large 研究现状：}根据问题的不同类型，可以将分布估计算法分成以下几类：
+%    \begin{itemize}
+%    \item 基于离散变量的分布估计算法
+%    \item 基于遗传编程的分布估计算法
+%    \item 多目标分布估计算法
+%    \end{itemize}
+%    \end{frame}
 
     \subsection{差分进化}
     \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
+    {\large 差分进化}
     \begin{columns}
     \begin{column}{0.4\textwidth}
     \begin{figure}
@@ -160,15 +172,15 @@
     \end{columns}
     \end{frame}
 
-    \begin{frame}
-    {\large 研究现状}
-    差分进化自从提出后，就受到了工业界以及学业界的广泛专注。根据差分进化解决的问题类型，可以将差分进化分为以下几种类型：
-    \begin{itemize}
-    \item 针对连续单目标优化问题的差分进化算法
-    \item 针对约束优化问题的差分进化算法
-    \item 针对多目标优化问题的差分进化算法
-    \end{itemize}
-    \end{frame}
+%    \begin{frame}
+%    {\large 研究现状}
+%    差分进化自从提出后，就受到了工业界以及学业界的广泛专注。根据差分进化解决的问题类型，可以将差分进化分为以下几种类型：
+%    \begin{itemize}
+%    \item 针对连续单目标优化问题的差分进化算法
+%    \item 针对约束优化问题的差分进化算法
+%    \item 针对多目标优化问题的差分进化算法
+%    \end{itemize}
+%    \end{frame}
 
     \section{基于差分采样的单目标优化}
 
@@ -191,7 +203,7 @@
     \subsection{基于差分采样的单目标分布估计算法}
     \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
-    {\large DE-EIG算法}
+    {\large 基于特征向量的差分进化算法}
     \begin{columns}
     \begin{column}{0.5\textwidth}
     \begin{figure}
@@ -234,8 +246,11 @@
 
     \begin{columns}
     \begin{column}{0.5\textwidth}
-    利用$Converage(\theta,t,t_e)$函数来判断解是否收敛
-
+    \begin{itemize}
+    \item 利用$Converage(\theta,t,t_e)$函数来判断解是否收敛
+    \item expensive LS可以进一步优化解集质量
+    \end{itemize}
+    \vspace{2em}
     \begin{equation}
     \label{expensive_ls_f}
     \Delta{f}=\frac{|f^1_{t-50}-f^1_t|}{max\{|f^1_{t-50}|, |f^1_t|\}+\varepsilon}
@@ -251,25 +266,26 @@
     \item $f^1_t=min_{x\in{pop_t}}$ 是在代数t时最好的目标函数值。
     \item $\Delta{x}$表示在近50代中种群覆盖区域的变化比率
     \item $c_t=\frac{1}{n}\sum{^n}_{i=1}(max_{x\in{pop}}-min_{x\in{pop}})$，$\varepsilon=1.0\times{10^{-50}}$。
-    \item 通过将$min\{\Delta{f}, \Delta{x}\}$和给定的阈值$\theta$进行比较，皆可以判断解是否收敛。为了提高算法的运行效率，每两次expensive LS至少间隔50代。
+    \item 通过将$min\{\Delta{f}, \Delta{x}\}$和给定的阈值$\theta$进行比较，可以判断解是否收敛。为了提高算法的运行效率，每两次expensive LS至少间隔\textbf{50}代。
     \end{itemize}
     \end{column}
     \end{columns}
     \end{frame}
 
     \begin{frame}
+    {\large 基于差分采样策略的单目标分布估计算法}
     \begin{columns}
     \begin{column}{0.5\textwidth}
     \begin{figure}
     \graphicspath{{figs/}}
     \includegraphics[width=0.9\textwidth]{edade-eig.png}
-    \caption{基于差分采样的单目标分布估计算法}
+    \caption{EDA/DE-EIG算法}
     \end{figure}
     \end{column}
     \begin{column}{0.5\textwidth}
     \begin{itemize}
-    \item 为了增加种群的多样性，通过利用随机参数来设置$CRP$，可以提高算法对于大多数问题的鲁棒性。
     \item 在基于DE/EDA算法框架的基础上，利用DE-EIG进行采样，同时结合expensive LS进一步提高解集质量，提出基于差分采样的单目标分布估计算法。
+    \item 为了增加种群的多样性，通过利用随机参数来设置$CRP$，可以提高种群的多样性和算法的鲁棒性。
     \end{itemize}
     \end{column}
     \end{columns}
@@ -280,9 +296,9 @@
     \begin{frame}
     {\large 实验设置：}
     \begin{itemize}
-      \item 测试题中所有种群维度都设置为30.所有算法都会在每一个测试题上独立运行50 次，体积条件是450000函数评估。
-      \item JADE：参数设置为：$N=150, p=0.05, c=0.1, F=0.5$ and $CR=0.9$
-      \item DE/EDA: $N=150, F=0.5$ and $CRP=0.9$。
+      \item 测试题中所有种群维度都设置为30。所有算法都会在每一个测试题上独立运行50 次，停机条件是450000函数评估。
+      \item JADE：参数设置为：$N=150, p=0.05, c=0.1, F=0.5$,$CR=0.9$
+      \item DE/EDA: $N=150, F=0.5$,$CRP=0.9$。
       \item EDA/DE-EIG: $CRP=0.5, F=0.5, CR=0.6, \theta=0.1$；控制坐标旋转的参数$p$ 设置为0.5；种群的大小$N$设置为150。 对于expensive LS的相关参数的设置，与EDA/LS中的参数设置相同。
     \end{itemize}
     \end{frame}
@@ -325,12 +341,23 @@
     \end{itemize}
     \end{frame}
     \begin{frame}
+    \begin{columns}
+    \begin{column}{0.6\textwidth}
     \begin{figure}
     \center
     \graphicspath{{figs/}}
-    \includegraphics[width=0.6\textwidth]{edade-eig-tab1.png}
+    \includegraphics[width=1.0\textwidth]{edade-eig-tab1.png}
     \caption{基于差分采样的单目标分布估计算法}
     \end{figure}
+    \end{column}
+    \begin{column}{0.4\textwidth}
+    \begin{itemize}
+    \item 红色的表示表现最佳的是EDA/DE-EIG
+    \item 蓝色的表示三个算法皆表现最佳
+    \item 黄色的表示JADE结果最好
+    \end{itemize}
+    \end{column}
+    \end{columns}
     \end{frame}
 
     \section{基于差分采样的多目标优化}
@@ -350,9 +377,11 @@
     \end{frame}
 
     \begin{frame}
-    在多目标优化问题中，多个目标相互之间往往是冲突的，从而导致无法在满足所有约束条件下使得所有目标函数都能够达到全局最优解，但是存在一组Pareto最优解。
+    {\large 多目标优化问题的相关定义}
+    在多目标优化问题中，多个目标相互之间往往是冲突的，从而导致无法在满足所有约束条件下使得所有目标函数都能够达到全局最优解，但是存在一组\textbf{Pareto最优解}。
 
-    对于此，做出以下定义：令$a,b\in{R^n}$，当$a_i\le{b_i}\land{a\neq{b}}$，且$i=1,\cdots,n$，则称$a$ 支配$b$。向量$x^*\in\Omega$ 即是公式~\ref{mop}的Pareto 最优解，如果不存在$x\in\Omega$ 使得$F(X)$ 支配$F(x^*)$。$F(x^*)$被称为Pareto最优目标向量。所有的Pareto 最优解的集合就是Pareto最优解集（PS），对应的最优向量的集合则成为Pareto前端（PF）。
+    对于此，做出以下定义：令$a,b\in{R^n}$，当$a_i\le{b_i}\land{a\neq{b}}$，且$i=1,\cdots,n$，则称$a$ 支配$b$。向量$x^*\in\Omega$ 即是公式~\ref{mop}的Pareto 最优解，如果不存在$x\in\Omega$ 使得$F(X)$ 支配$F(x^*)$。$F(x^*)$被称为Pareto最优目标向量。所有的Pareto 最优解的集合就是\textbf{Pareto最优解集}（PS），对应的最优向量的集合则成为
+    \textbf{Pareto 前沿}（PF）。
     \end{frame}
 
     \begin{frame}
@@ -366,15 +395,15 @@
     \end{figure}
     \end{frame}
 
-    \begin{frame}
-    对于连续多目标问题，在决策空间中，种群体中的个体如果越接近Pareto解集，则越容易进行问题的求解。因此，假设种群中的个体为随机向量$\xi\in{R}^D$ 的观测值，$\xi$的中央部分就是Pareto解集。 并且因为在连续多目标问题中，Pareto解集是一个m-1维的流体，那么$\xi$ 则可以由公式~\ref{model}表示：
-    \begin{equation}
-    \label{model}
-      \xi=\zeta+\epsilon
-    \end{equation}
-
-    $\zeta$相当于是均匀分布在m-1维流体附近的个体，$\epsilon$是均值为0的n维的噪音向量。
-    \end{frame}
+%    \begin{frame}
+%    对于连续多目标问题，在决策空间中，种群体中的个体如果越接近Pareto解集，则越容易进行问题的求解。因此，假设种群中的个体为随机向量$\xi\in{R}^D$ 的观测值，$\xi$的中央部分就是Pareto解集。 并且因为在连续多目标问题中，Pareto解集是一个m-1维的流体，那么$\xi$ 则可以由公式~\ref{model}表示：
+%    \begin{equation}
+%    \label{model}
+%      \xi=\zeta+\epsilon
+%    \end{equation}
+%
+%    $\zeta$相当于是均匀分布在m-1维流体附近的个体，$\epsilon$是均值为0的n维的噪音向量。
+%    \end{frame}
 
     \subsection{基于差分采样的多目标分布估计算法}
     \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
@@ -487,7 +516,7 @@
     \item 利用差分采样策略来取代分布估计算法中原有的建模采样。
     \end{itemize}
     \end{frame}
-    
+
     \begin{frame}
     {\large 基于差分采样的多目标分布计算法}
     \begin{columns}
@@ -501,7 +530,7 @@
     \end{column}
     \begin{column}{0.4\textwidth}
     \begin{itemize}
-    \item 利用差分采样策略来改进多目标分布估计算法的的采样，有效提高算法性能
+    \item 利用差分采样策略来改进RM-MEDA的的采样，有效提高算法性能
     \end{itemize}
     \end{column}
     \end{columns}
@@ -519,7 +548,7 @@
     \subfigure[F4]{\includegraphics[ width=0.26\textwidth]{box_f4.eps}}
     \subfigure[F5]{\includegraphics[ width=0.26\textwidth]{box_f5.eps}}
     \subfigure[F6]{\includegraphics[ width=0.26\textwidth]{box_f6.eps}}
-    \caption{不同缩放因子下，RM-MEDA的IGD指标的箱线图}
+    \caption{不同缩放比例下，RM-MEDA的IGD指标的箱线图}
     \end{figure}
     \end{frame}
 
@@ -533,21 +562,22 @@
     \subfigure[F8]{\includegraphics[ width=0.35\textwidth]{box_f8.eps}}
     \subfigure[F9]{\includegraphics[ width=0.35\textwidth]{box_f9.eps}}
     \subfigure[F10]{\includegraphics[ width=0.35\textwidth]{box_f10.eps}}
-    \caption{不同缩放因子下，RM-MEDA的IGD指标的箱线图}
+    \caption{不同缩放比例下，RM-MEDA的IGD指标的箱线图}
     \end{figure}
     \end{column}
     \begin{column}{0.4\textwidth}
     \begin{itemize}
-    \item 如果不设置缩放因子，那么RM-MEDA表现则不是很好
-    \item 缩放因子设置的越大，则RM-MEDA表现得也更加优秀
-    \item 对于设置较大的缩放因子也可能会造成性能的不稳定
-    \item 总的来说，如何在实践中设置一个最佳的缩放因子还是比较困难的。
+    \item 如果不设置缩放比例，那么RM-MEDA表现则不是很好
+    \item 缩放比例设置的越大，则RM-MEDA表现得也更加优秀
+    \item 对于设置较大的缩放比例也可能会造成性能的不稳定
+    \item 总的来说，如何在实践中设置一个最佳的缩放比例还是比较困难的。
     \end{itemize}
     \end{column}
     \end{columns}
     \end{frame}
 
     \begin{frame}
+    {\large 缩放因子F的敏感性}
     \begin{columns}
     \begin{column}{0.5\textwidth}
     \begin{figure}
