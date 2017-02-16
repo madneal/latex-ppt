@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.26)  17 FEB 2017 07:30
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.26)  17 FEB 2017 07:35
 entering extended mode
 **graduation.tex
 (E:\latex-ppt\graduation\graduation.tex
@@ -1135,7 +1135,7 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 54.
 
 [3
 
-] <figs/ec.png, id=226, 586.19pt x 255.95625pt>
+] <figs/ec.png, id=227, 586.19pt x 255.95625pt>
 File: figs/ec.png Graphic file (type png)
  <use figs/ec.png>
 Package pdftex.def Info: figs/ec.png used on input line 63.
@@ -1618,7 +1618,7 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 411.
 
 [27
 
-] <figs/rm-meda-ag.png, id=1140, 418.56375pt x 115.02975pt>
+] <figs/rm-meda-ag.png, id=1139, 418.56375pt x 115.02975pt>
 File: figs/rm-meda-ag.png Graphic file (type png)
 
 <use figs/rm-meda-ag.png>
@@ -1630,7 +1630,7 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 429.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [28
 
- <E:/latex-ppt/graduation/figs/rm-meda-ag.png>] <figs/lpca.png, id=1170, 647.41
+ <E:/latex-ppt/graduation/figs/rm-meda-ag.png>] <figs/lpca.png, id=1169, 647.41
 875pt x 212.795pt>
 File: figs/lpca.png Graphic file (type png)
 
@@ -1643,7 +1643,7 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 472.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [29
 
- <E:/latex-ppt/graduation/figs/lpca.png>] <figs/pareto.png, id=1202, 688.5725pt
+ <E:/latex-ppt/graduation/figs/lpca.png>] <figs/pareto.png, id=1201, 688.5725pt
  x 377.41pt>
 File: figs/pareto.png Graphic file (type png)
 
@@ -1656,7 +1656,7 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 493.
 (pdftex.def)             Requested size: 85.35728pt x 14.22661pt.
  [30
 
- <E:/latex-ppt/graduation/figs/pareto.png>] <figs/des-ag.png, id=1232, 462.528p
+ <E:/latex-ppt/graduation/figs/pareto.png>] <figs/des-ag.png, id=1231, 462.528p
 t x 287.8755pt>
 File: figs/des-ag.png Graphic file (type png)
 
@@ -1668,7 +1668,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.520     \end{frame}
-                      <figs/mutation.png, id=1233, 309.40594pt x 225.84375pt>
+                      <figs/mutation.png, id=1232, 309.40594pt x 225.84375pt>
 File: figs/mutation.png Graphic file (type png)
 
 <use figs/mutation.png>
@@ -1682,7 +1682,7 @@ Package pdftex.def Info: university-logo-ecnu.png used on input line 520.
 
  <E:/latex-ppt/graduation/figs/des-ag.png> <E:/latex-ppt/graduation/figs/mutati
 on.png>]
-<figs/des-rm-meda.png, id=1266, 442.65375pt x 130.086pt>
+<figs/des-rm-meda.png, id=1265, 442.65375pt x 130.086pt>
 File: figs/des-rm-meda.png Graphic file (type png)
 
 <use figs/des-rm-meda.png>
@@ -1715,7 +1715,7 @@ ed-to.pdf figs/box/box_f1.eps>
 (epstopdf)             \includegraphics on input line 555.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f1-eps-converted-to.pdf, id=1339, 490.83376pt x 387.4475pt>
+<figs/box/box_f1-eps-converted-to.pdf, id=1337, 490.83376pt x 387.4475pt>
 File: figs/box/box_f1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f1-eps-converted-to.pdf>
@@ -1733,7 +1733,7 @@ ed-to.pdf figs/box/box_f2.eps>
 (epstopdf)             \includegraphics on input line 555.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f2-eps-converted-to.pdf, id=1340, 490.83376pt x 387.4475pt>
+<figs/box/box_f2-eps-converted-to.pdf, id=1338, 490.83376pt x 387.4475pt>
 File: figs/box/box_f2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f2-eps-converted-to.pdf>
@@ -1751,7 +1751,7 @@ ed-to.pdf figs/box/box_f3.eps>
 (epstopdf)             \includegraphics on input line 555.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f3-eps-converted-to.pdf, id=1341, 490.83376pt x 387.4475pt>
+<figs/box/box_f3-eps-converted-to.pdf, id=1339, 490.83376pt x 387.4475pt>
 File: figs/box/box_f3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f3-eps-converted-to.pdf>
@@ -1769,7 +1769,7 @@ ed-to.pdf figs/box/box_f4.eps>
 (epstopdf)             \includegraphics on input line 555.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f4-eps-converted-to.pdf, id=1342, 490.83376pt x 387.4475pt>
+<figs/box/box_f4-eps-converted-to.pdf, id=1340, 490.83376pt x 387.4475pt>
 File: figs/box/box_f4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f4-eps-converted-to.pdf>
@@ -1787,7 +1787,7 @@ ed-to.pdf figs/box/box_f5.eps>
 (epstopdf)             \includegraphics on input line 555.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f5-eps-converted-to.pdf, id=1343, 490.83376pt x 387.4475pt>
+<figs/box/box_f5-eps-converted-to.pdf, id=1341, 490.83376pt x 387.4475pt>
 File: figs/box/box_f5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f5-eps-converted-to.pdf>
@@ -1805,7 +1805,7 @@ ed-to.pdf figs/box/box_f6.eps>
 (epstopdf)             \includegraphics on input line 555.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f6-eps-converted-to.pdf, id=1344, 484.81125pt x 387.4475pt>
+<figs/box/box_f6-eps-converted-to.pdf, id=1342, 484.81125pt x 387.4475pt>
 File: figs/box/box_f6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f6-eps-converted-to.pdf>
@@ -1835,7 +1835,7 @@ ed-to.pdf figs/box/box_f7.eps>
 (epstopdf)             \includegraphics on input line 579.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f7-eps-converted-to.pdf, id=1391, 484.81125pt x 387.4475pt>
+<figs/box/box_f7-eps-converted-to.pdf, id=1389, 484.81125pt x 387.4475pt>
 File: figs/box/box_f7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f7-eps-converted-to.pdf>
@@ -1853,7 +1853,7 @@ ed-to.pdf figs/box/box_f8.eps>
 (epstopdf)             \includegraphics on input line 579.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f8-eps-converted-to.pdf, id=1392, 495.8525pt x 387.4475pt>
+<figs/box/box_f8-eps-converted-to.pdf, id=1390, 495.8525pt x 387.4475pt>
 File: figs/box/box_f8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f8-eps-converted-to.pdf>
@@ -1871,7 +1871,7 @@ ed-to.pdf figs/box/box_f9.eps>
 (epstopdf)             \includegraphics on input line 579.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f9-eps-converted-to.pdf, id=1393, 490.83376pt x 387.4475pt>
+<figs/box/box_f9-eps-converted-to.pdf, id=1391, 490.83376pt x 387.4475pt>
 File: figs/box/box_f9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f9-eps-converted-to.pdf>
@@ -1889,7 +1889,7 @@ ted-to.pdf figs/box/box_f10.eps>
 (epstopdf)             \includegraphics on input line 579.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f10-eps-converted-to.pdf, id=1394, 487.8225pt x 387.4475pt>
+<figs/box/box_f10-eps-converted-to.pdf, id=1392, 487.8225pt x 387.4475pt>
 File: figs/box/box_f10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f10-eps-converted-to.pdf>
@@ -1918,7 +1918,7 @@ rted-to.pdf figs/figure/f1_f5.eps>
 (epstopdf)             \includegraphics on input line 605.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/figure/f1_f5-eps-converted-to.pdf, id=1435, 517.935pt x 393.47pt>
+<figs/figure/f1_f5-eps-converted-to.pdf, id=1433, 517.935pt x 393.47pt>
 File: figs/figure/f1_f5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/figure/f1_f5-eps-converted-to.pdf>
@@ -1936,7 +1936,7 @@ rted-to.pdf figs/figure/f6_f9.eps>
 (epstopdf)             \includegraphics on input line 605.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/figure/f6_f9-eps-converted-to.pdf, id=1436, 517.935pt x 393.47pt>
+<figs/figure/f6_f9-eps-converted-to.pdf, id=1434, 517.935pt x 393.47pt>
 File: figs/figure/f6_f9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/figure/f6_f9-eps-converted-to.pdf>
@@ -1954,7 +1954,7 @@ ed-to.pdf figs/figure/f10.eps>
 (epstopdf)             \includegraphics on input line 605.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/figure/f10-eps-converted-to.pdf, id=1437, 514.92375pt x 393.47pt>
+<figs/figure/f10-eps-converted-to.pdf, id=1435, 514.92375pt x 393.47pt>
 File: figs/figure/f10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/figure/f10-eps-converted-to.pdf>
@@ -1973,7 +1973,7 @@ ps-converted-to.pdf figs/figure/f_performance.eps>
 (epstopdf)             \includegraphics on input line 605.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/figure/f_performance-eps-converted-to.pdf, id=1438, 488.82625pt x 393.47p
+<figs/figure/f_performance-eps-converted-to.pdf, id=1436, 488.82625pt x 393.47p
 t>
 File: figs/figure/f_performance-eps-converted-to.pdf Graphic file (type pdf)
  <use figs/figure/f_performance-eps-converted-to.pdf>
@@ -2005,7 +2005,7 @@ ed-to.pdf figs/igd/f1_igd.eps>
 (epstopdf)             \includegraphics on input line 620.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f1_igd-eps-converted-to.pdf, id=1487, 498.86375pt x 402.50375pt>
+<figs/igd/f1_igd-eps-converted-to.pdf, id=1485, 498.86375pt x 402.50375pt>
 File: figs/igd/f1_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f1_igd-eps-converted-to.pdf>
@@ -2023,7 +2023,7 @@ ed-to.pdf figs/igd/f2_igd.eps>
 (epstopdf)             \includegraphics on input line 620.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f2_igd-eps-converted-to.pdf, id=1488, 498.86375pt x 402.50375pt>
+<figs/igd/f2_igd-eps-converted-to.pdf, id=1486, 498.86375pt x 402.50375pt>
 File: figs/igd/f2_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f2_igd-eps-converted-to.pdf>
@@ -2041,7 +2041,7 @@ ed-to.pdf figs/igd/f3_igd.eps>
 (epstopdf)             \includegraphics on input line 620.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f3_igd-eps-converted-to.pdf, id=1489, 500.87125pt x 402.50375pt>
+<figs/igd/f3_igd-eps-converted-to.pdf, id=1487, 500.87125pt x 402.50375pt>
 File: figs/igd/f3_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f3_igd-eps-converted-to.pdf>
@@ -2059,7 +2059,7 @@ ed-to.pdf figs/igd/f4_igd.eps>
 (epstopdf)             \includegraphics on input line 620.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f4_igd-eps-converted-to.pdf, id=1490, 498.86375pt x 402.50375pt>
+<figs/igd/f4_igd-eps-converted-to.pdf, id=1488, 498.86375pt x 402.50375pt>
 File: figs/igd/f4_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f4_igd-eps-converted-to.pdf>
@@ -2077,7 +2077,7 @@ ed-to.pdf figs/igd/f5_igd.eps>
 (epstopdf)             \includegraphics on input line 620.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f5_igd-eps-converted-to.pdf, id=1491, 498.86375pt x 402.50375pt>
+<figs/igd/f5_igd-eps-converted-to.pdf, id=1489, 498.86375pt x 402.50375pt>
 File: figs/igd/f5_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f5_igd-eps-converted-to.pdf>
@@ -2095,7 +2095,7 @@ ed-to.pdf figs/igd/f6_igd.eps>
 (epstopdf)             \includegraphics on input line 620.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f6_igd-eps-converted-to.pdf, id=1492, 498.86375pt x 402.50375pt>
+<figs/igd/f6_igd-eps-converted-to.pdf, id=1490, 498.86375pt x 402.50375pt>
 File: figs/igd/f6_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f6_igd-eps-converted-to.pdf>
@@ -2125,7 +2125,7 @@ ed-to.pdf figs/igd/f7_igd.eps>
 (epstopdf)             \includegraphics on input line 643.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f7_igd-eps-converted-to.pdf, id=1547, 500.87125pt x 402.50375pt>
+<figs/igd/f7_igd-eps-converted-to.pdf, id=1545, 500.87125pt x 402.50375pt>
 File: figs/igd/f7_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f7_igd-eps-converted-to.pdf>
@@ -2143,7 +2143,7 @@ ed-to.pdf figs/igd/f8_igd.eps>
 (epstopdf)             \includegraphics on input line 643.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f8_igd-eps-converted-to.pdf, id=1548, 498.86375pt x 402.50375pt>
+<figs/igd/f8_igd-eps-converted-to.pdf, id=1546, 498.86375pt x 402.50375pt>
 File: figs/igd/f8_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f8_igd-eps-converted-to.pdf>
@@ -2161,7 +2161,7 @@ ed-to.pdf figs/igd/f9_igd.eps>
 (epstopdf)             \includegraphics on input line 643.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f9_igd-eps-converted-to.pdf, id=1549, 500.87125pt x 402.50375pt>
+<figs/igd/f9_igd-eps-converted-to.pdf, id=1547, 500.87125pt x 402.50375pt>
 File: figs/igd/f9_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f9_igd-eps-converted-to.pdf>
@@ -2179,7 +2179,7 @@ ted-to.pdf figs/igd/f10_igd.eps>
 (epstopdf)             \includegraphics on input line 643.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f10_igd-eps-converted-to.pdf, id=1550, 496.85625pt x 402.50375pt>
+<figs/igd/f10_igd-eps-converted-to.pdf, id=1548, 496.85625pt x 402.50375pt>
 File: figs/igd/f10_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f10_igd-eps-converted-to.pdf>
@@ -2244,7 +2244,7 @@ Package rerunfilecheck Warning: File `graduation.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `graduation.out':
-(rerunfilecheck)             Before: 82524FA49BD24F5EBA89AA9EE0C3B025;1725
+(rerunfilecheck)             Before: 0CCAA6AD2D3557B9139286725474D06F;1725
 (rerunfilecheck)             After:  16D6E1BB1C86BEDD4D3719D2A8CE1E80;921.
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2255,55 +2255,46 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19902 strings out of 495354
- 351840 string characters out of 3183859
- 454192 words of memory out of 3000000
- 22366 multiletter control sequences out of 15000+200000
+ 19894 strings out of 495354
+ 351719 string characters out of 3183859
+ 454141 words of memory out of 3000000
+ 22361 multiletter control sequences out of 15000+200000
  56875 words of font info for 197 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,17n,63p,424b,1338s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Navigation42} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.4.3.34} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.4.2.28} has been referenced but does not e
-xist, replaced by a fixed one
-
+<C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/
+chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTe
+X/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun
+.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truety
+pe/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/
+CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/sim
+sun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/tru
+etype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CT
+EX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/
+simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/
+truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:
+/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chine
+se/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fon
+ts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf>
 <C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/ch
 inese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/
 fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.t
 tf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype
 /chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CT
 eX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsu
-n.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truet
-ype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX
-/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/si
-msun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/tr
-uetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/C
-TEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese
-/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts
-/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C
-:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chin
-ese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fo
-nts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/c
-hinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX
-/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.
-ttf><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/CTEX/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmss10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><
-C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/CTEX/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmss8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmss9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/CT
-EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/CTEX/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmssi8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmssi9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on graduation.pdf (41 pages, 1551896 bytes).
+n.ttf><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/CTEX/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmss10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb
+><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/CTEX/MiKTeX/font
+s/type1/public/amsfonts/cm/cmss8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmss9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/
+CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/CTEX/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmssi8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmssi9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on graduation.pdf (41 pages, 1550975 bytes).
 PDF statistics:
- 1858 PDF objects out of 2073 (max. 8388607)
- 115 named destinations out of 1000 (max. 500000)
+ 1854 PDF objects out of 2073 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
  443 words of extra memory for PDF output out of 10000 (max. 10000000)
 
