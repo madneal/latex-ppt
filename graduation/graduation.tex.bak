@@ -61,7 +61,7 @@
     \caption{演化算法流程图}
     \end{figure}
     \end{frame}
-    
+
 %    \begin{frame}
 %    分布估计算法是一种新型的演化算法，传统的分布估计算法主要由三个步骤组成：建模、采样、选择。
 %
@@ -333,13 +333,13 @@
     \end{figure}
     \end{frame}
 
-    \begin{frame}
-    \begin{itemize}
-    \item 三个算法在$f6$测试题上都收敛得很早，因此不用折线图展示。
-    \item 和DE/EDA相比，EDA/DE-EIG具有较大的领先，在10个测试题上都具有较大幅度优势（除了$f7,f8$）。
-    \item 和JADE相比，在$f1,f2,f3,f4,f11$ 5个测试题上在下降趋势和最终结果都有明显优势，在$f10,f12,f13$三个测试题上，下降趋势更佳，对于$f5$虽然最终结果不如JADE，但是下降趋势表现得更好，在$f7,f8,f9$ 3个测试题上表现得不如JADE。
-    \end{itemize}
-    \end{frame}
+%    \begin{frame}
+%    \begin{itemize}
+%    \item 三个算法在$f6$测试题上都收敛得很早，因此不用折线图展示。
+%    \item 和DE/EDA相比，EDA/DE-EIG具有较大的领先，在10个测试题上都具有较大幅度优势（除了$f7,f8$）。
+%    \item 和JADE相比，在$f1,f2,f3,f4,f11$ 5个测试题上在下降趋势和最终结果都有明显优势，在$f10,f12,f13$三个测试题上，下降趋势更佳，对于$f5$虽然最终结果不如JADE，但是下降趋势表现得更好，在$f7,f8,f9$ 3个测试题上表现得不如JADE。
+%    \end{itemize}
+%    \end{frame}
     \begin{frame}
     \begin{columns}
     \begin{column}{0.6\textwidth}
