@@ -4,7 +4,7 @@
 \beamer@subsectionintoc {1}{2}{主要研究内容}{6}{0}{1}
 \beamer@sectionintoc {2}{研究背景}{8}{0}{2}
 \beamer@subsectionintoc {2}{1}{分布估计算法}{8}{0}{2}
-\beamer@subsectionintoc {2}{2}{差分进化}{10}{0}{2}
+\beamer@subsectionintoc {2}{2}{差分演化}{10}{0}{2}
 \beamer@sectionintoc {3}{基于差分采样的单目标优化}{12}{0}{3}
 \beamer@subsectionintoc {3}{1}{全局单目标优化问题}{12}{0}{3}
 \beamer@subsectionintoc {3}{2}{基于差分采样的单目标分布估计算法}{14}{0}{3}

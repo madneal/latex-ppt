@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  16 FEB 2017 21:39
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.4.28)  18 MAY 2017 17:56
 entering extended mode
 **graduation.tex
 (C:\Users\neal1\project\latex-ppt\graduation\graduation.tex
@@ -381,11 +381,6 @@ File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 3925.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 3925.
-Package hyperref Info: Option `unicode' set `true' on input line 3925.
-
-(C:\CTEX\MiKTeX\tex\latex\hyperref\puenc.def
-File: puenc.def 2012/02/06 v6.82o Hyperref: PDF Unicode definition (HO)
-)
 Package hyperref Info: Option `implicit' set `false' on input line 3925.
 Package hyperref Info: Hyper figures OFF on input line 4046.
 Package hyperref Info: Link nesting OFF on input line 4051.
@@ -890,8 +885,6 @@ LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
@@ -2278,8 +2271,8 @@ Package rerunfilecheck Warning: File `graduation.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `graduation.out':
-(rerunfilecheck)             Before: 5D4F2002905EF064D5B5D540712E529E;1725
-(rerunfilecheck)             After:  6C1C4661EB45E48F8796E3743A56B327;1839.
+(rerunfilecheck)             Before: C704EB36FFB6F374E58ACB29C8B0A5BE;1725
+(rerunfilecheck)             After:  7200A9E76FAB1C3915EEB7372C7A900E;921.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 8.41pt have occurred.
@@ -2289,11 +2282,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21219 strings out of 495354
- 366669 string characters out of 3183858
- 465555 words of memory out of 3000000
- 23679 multiletter control sequences out of 15000+200000
- 57166 words of font info for 198 fonts, out of 3000000 for 9000
+ 19928 strings out of 495354
+ 353072 string characters out of 3183859
+ 454288 words of memory out of 3000000
+ 22391 multiletter control sequences out of 15000+200000
+ 56868 words of font info for 197 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,17n,63p,424b,1354s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/
@@ -2326,7 +2319,7 @@ CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/CTEX/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmssi8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmssi9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on graduation.pdf (43 pages, 1667360 bytes).
+Output written on graduation.pdf (43 pages, 1669182 bytes).
 PDF statistics:
  1913 PDF objects out of 2073 (max. 8388607)
  116 named destinations out of 1000 (max. 500000)

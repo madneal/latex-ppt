@@ -34,10 +34,10 @@
 
 
     \title[差分采样]{分布估计算法中差分采样策略的研究}
-    \author[董兵]{董兵\\{周爱民\quad 副教授}}
+    \author[董兵]{董兵\\{周爱民\quad 研究院}}
 
     \institute[ECNU]{华东师范大学\par 计算机科学软件工程学院}
-    \date{2017年2月}
+    \date{2017年5月}
     \logo{\includegraphics[height=0.5cm,width=3.0cm]{university-logo-ecnu}\vspace{230pt}}
 
     \begin{frame}
@@ -61,7 +61,7 @@
     \caption{演化算法流程图}
     \end{figure}
     \end{frame}
-    
+
 %    \begin{frame}
 %    分布估计算法是一种新型的演化算法，传统的分布估计算法主要由三个步骤组成：建模、采样、选择。
 %
@@ -93,7 +93,7 @@
 %    \vspace{2em}
 %    差分采样策略的意义：
 %    \begin{itemize}
-%    \item 差分进化简单有效，并且易于和其它算法结合
+%    \item 差分演化简单有效，并且易于和其它算法结合
 %    \item 差分采样策略能有效提高种群多样性
 %    \end{itemize}
 %    \end{frame}
@@ -103,8 +103,8 @@
     \begin{frame}
     {\large 主要工作}
     \begin{itemize}
-    \item 受差分进化启发，提出一种基于差分进化的采样策略，即差分采样策略。
-    \item 对于单目标优化问题，利用基于特征向量的差分进化去改进采样，通过expensive Local Search进一步改进解集质量，提出\textbf{基于差分采样的单目标分布估计算法}。
+    \item 受差分演化启发，提出一种基于差分演化的采样策略，即差分采样策略。
+    \item 对于单目标优化问题，利用基于特征向量的差分演化去改进采样，通过expensive Local Search进一步改进解集质量，提出\textbf{基于差分采样的单目标分布估计算法}。
     \item 对于多目标优化问题，利用差分采样策略去改进RM-MEDA的采样，提出\textbf{基于差分采样的多目标分布估计算法}。
     \end{itemize}
     \end{frame}
@@ -141,16 +141,16 @@
 %    \end{itemize}
 %    \end{frame}
 
-    \subsection{差分进化}
+    \subsection{差分演化}
     \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
-    {\large 差分进化}
+    {\large 差分演化}
     \begin{columns}
     \begin{column}{0.4\textwidth}
     \begin{figure}
     \graphicspath{{figs/}}
     \includegraphics[width=0.6\textwidth]{deag.png}
-    \caption{差分进化流程}
+    \caption{差分演化流程}
     \end{figure}
     \end{column}
     \begin{column}{0.6\textwidth}
@@ -174,11 +174,11 @@
 
 %    \begin{frame}
 %    {\large 研究现状}
-%    差分进化自从提出后，就受到了工业界以及学业界的广泛专注。根据差分进化解决的问题类型，可以将差分进化分为以下几种类型：
+%    差分演化自从提出后，就受到了工业界以及学业界的广泛专注。根据差分演化解决的问题类型，可以将差分演化分为以下几种类型：
 %    \begin{itemize}
-%    \item 针对连续单目标优化问题的差分进化算法
-%    \item 针对约束优化问题的差分进化算法
-%    \item 针对多目标优化问题的差分进化算法
+%    \item 针对连续单目标优化问题的差分演化算法
+%    \item 针对约束优化问题的差分演化算法
+%    \item 针对多目标优化问题的差分演化算法
 %    \end{itemize}
 %    \end{frame}
 
@@ -203,7 +203,7 @@
     \subsection{基于差分采样的单目标分布估计算法}
     \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
-    {\large 基于特征向量的差分进化算法}
+    {\large 基于特征向量的差分演化算法}
     \begin{columns}
     \begin{column}{0.5\textwidth}
     \begin{figure}
@@ -214,7 +214,7 @@
     \end{column}
     \begin{column}{0.5\textwidth}
     \begin{itemize}
-    \item DE-EIG算法是基于特征向量的差分进化算法，其主要贡献是在一个旋转的坐标空间对个体进行交叉操作，这样可以利用旋转空间中种群的协方差矩阵的特征向量信息。
+    \item DE-EIG算法是基于特征向量的差分演化算法，其主要贡献是在一个旋转的坐标空间对个体进行交叉操作，这样可以利用旋转空间中种群的协方差矩阵的特征向量信息。
     \item 这样在保证种群的多样性的同时，能够有效地引导种群向全局最优演化。
     \end{itemize}
     \end{column}
@@ -233,8 +233,8 @@
     \end{column}
     \begin{column}{0.5\textwidth}
     \begin{itemize}
-    \item DE/EDA是一种结合差分进化和分布估计算法来解决全局连续优化问题。
-    \item DE/EDA通过利用分布估计算法可以提取种群全局信息和差分进化可以提取种群差分信息的优点，是一种非常具有研究前景的算法。
+    \item DE/EDA是一种结合差分演化和分布估计算法来解决全局连续优化问题。
+    \item DE/EDA通过利用分布估计算法可以提取种群全局信息和差分演化可以提取种群差分信息的优点，是一种非常具有研究前景的算法。
     \end{itemize}
     \end{column}
     \end{columns}
@@ -657,7 +657,7 @@
     \begin{itemize}
     \item 将差分采样策略应用于其它多目标优化算法
     \item 进一步优化EDA/DE-EIG算法
-    \item 对于DE/EDA算法中，分布估计算法和差分进化的资源分配是一个值得继续探索的话题
+    \item 对于DE/EDA算法中，分布估计算法和差分演化的资源分配是一个值得继续探索的话题
     \end{itemize}
     \end{frame}
 
