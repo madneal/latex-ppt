@@ -17,6 +17,7 @@
 \usepackage{float}
 \usepackage{wrapfig}
 \usepackage{algorithm2e}
+
 \hypersetup{CJKbookmarks=true}
 \usetheme{CambridgeUS}
 \usecolortheme[named=red]{structure}
@@ -24,6 +25,7 @@
 \setbeamertemplate{caption}[numbered]
 \setbeamertemplate{caption}[small]
 \usepackage[absolute,overlay]{textpos}
+\usepackage{ulem}
 \newenvironment{reference}[2]{%
   \begin{textblock*}{\textwidth}(#1,#2)
      \bgroup\fontsize{6pt}{\baselineskip}\selectfont\color[RGB]{0,112,192}}{\egroup\end{textblock*}}
@@ -35,7 +37,7 @@
 
     \title[差分采样]{分布估计算法中差分采样策略的研究}
 
-    \author[董兵]{董兵\\{周爱民\quad 研究员}}
+    \author[董兵]{答辩人：董兵 \\{~~~~~~~~~~~~~~~导~~~师：周爱民\quad 研究员}}
 
     \institute[ECNU]{华东师范大学\par 计算机科学软件工程学院}
     \date{2017年5月}
@@ -50,18 +52,25 @@
     \end{frame}
 
     \section{绪论}
+    \frame{\tableofcontents[currentsection]}
     \subsection{研究目的和意义}
     %\frame{\tableofcontents[currentsection]}
-    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
-
+%    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
-    演化算法是一种基于种群的启发式优化算法，是隶属于演化计算的人工智能算法。
+    {\large 研究目的和意义}
+    \begin{itemize}
+    \item 传统的分布估计算法往往需要考虑选择什么样的模型来进行采样
+    \item 通过结合差分演化来进一步提升分布估计算法的采样
+    \item 提出的差分采样策略，对于单目标分布估计算法和多目标分布估计算法性能都有提升
+    \end{itemize}
     \begin{figure}[H]
     \graphicspath{{figs/}}
-    \includegraphics[width=0.7\textwidth]{ec.png}
-    \caption{演化算法流程图}
+    \includegraphics[width=0.7\textwidth]{eda.png}
+    \caption{差分采样策略}
     \end{figure}
     \end{frame}
+    
+
 
 %    \begin{frame}
 %    分布估计算法是一种新型的演化算法，传统的分布估计算法主要由三个步骤组成：建模、采样、选择。
@@ -74,16 +83,12 @@
 %    \end{frame}
 
 
-    \begin{frame}
-    分布估计算法是一种新型的演化算法，传统的分布估计算法主要由三个步骤组成：建模、采样、选择。
-
-    本文的研究目的是利用\textbf{差分采样策略}来取代分布估计算法传统的建模采样。传统的采样是通过从建立的概率模型来进行采样，利用差分采样策略可以有效提高种群多样性，减少对概率模型的依赖，有效提高算法性能。
-    \begin{figure}[H]
-    \graphicspath{{figs/}}
-    \includegraphics[width=0.7\textwidth]{eda.png}
-    \caption{分布估计算法}
-    \end{figure}
-    \end{frame}
+%    \begin{frame}
+%    分布估计算法是一种新型的演化算法，传统的分布估计算法主要由三个步骤组成：建模、采样、选择。
+%
+%    本文的研究目的是利用\textbf{差分采样策略}来取代分布估计算法传统的建模采样。传统的采样是通过从建立的概率模型来进行采样，利用差分采样策略可以有效提高种群多样性，减少对概率模型的依赖，有效提高算法性能。
+%
+%    \end{frame}
 
 %    \begin{frame}
 %    分布估计算法中传统采样存在以下问题：
@@ -99,8 +104,8 @@
 %    \end{itemize}
 %    \end{frame}
 
-    \subsection{主要研究内容}
-    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
+    \subsection{主要工作}
+%    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
     {\large 主要工作}
     \begin{itemize}
@@ -111,8 +116,19 @@
     \end{frame}
 
     \section{研究背景}
+    \frame{\tableofcontents[currentsection]}
+    \subsection{演化算法}
+    \begin{frame}
+    演化算法是一种基于种群的启发式优化算法。演化算法适用于解决多种问题，几乎不需要任何的假设前提条件。
+    \begin{figure}[H]
+    \graphicspath{{figs/}}
+    \includegraphics[width=0.7\textwidth]{ec.png}
+    \caption{演化算法流程图}
+    \end{figure}
+    \end{frame}  
+    
     \subsection{分布估计算法}
-    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
+%    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
     {\large 分布估计算法}
     \begin{columns}
@@ -143,7 +159,7 @@
 %    \end{frame}
 
     \subsection{差分演化}
-    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
+    %\frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
     {\large 差分演化}
     \begin{columns}
@@ -184,9 +200,9 @@
 %    \end{frame}
 
     \section{基于差分采样的单目标优化}
-
+    \frame{\tableofcontents[currentsection]}
     \subsection{全局单目标优化问题}
-    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
+    %\frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
     单目标优化问题几乎出现在科学和工程应用的各个领域中。本文研究的单目标优化问题针对的是连续空间的全局优化问题，即是求目标函数的最小值或者最大值。
 
@@ -202,77 +218,135 @@
     \end{frame}
 
     \subsection{基于差分采样的单目标分布估计算法}
-    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
-    \begin{frame}
-    {\large 基于特征向量的差分演化算法}
-    \begin{columns}
-    \begin{column}{0.5\textwidth}
-    \begin{figure}
-    \graphicspath{{figs/}}
-    \includegraphics[width=0.8\textwidth]{de-eig.png}
-    \caption{DE-EIG算法}
-    \end{figure}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-    \begin{itemize}
-    \item DE-EIG算法是基于特征向量的差分演化算法，其主要贡献是在一个旋转的坐标空间对个体进行交叉操作，这样可以利用旋转空间中种群的协方差矩阵的特征向量信息。
-    \item 这样在保证种群的多样性的同时，能够有效地引导种群向全局最优演化。
-    \end{itemize}
-    \end{column}
-    \end{columns}
-    \end{frame}
+    %\frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
+  %  \begin{frame}
+%    {\large 基于特征向量的差分演化算法}
+%    \begin{columns}
+%    \begin{column}{0.5\textwidth}
+%    \begin{figure}
+%    \graphicspath{{figs/}}
+%    \includegraphics[width=0.8\textwidth]{de-eig.png}
+%    \caption{DE-EIG算法}
+%    \end{figure}
+%    \end{column}
+%    \begin{column}{0.5\textwidth}
+%    \begin{itemize}
+%    \item DE-EIG算法是基于特征向量的差分演化算法，其主要贡献是在一个旋转的坐标空间对个体进行交叉操作，这样可以利用旋转空间中种群的协方差矩阵的特征向量信息。
+%    \item 这样在保证种群的多样性的同时，能够有效地引导种群向全局最优演化。
+%    \end{itemize}
+%    \end{column}
+%    \end{columns}
+  %  \end{frame}
+
+%    \begin{frame}
+%    {\large DE/EDA算法}
+%    \begin{columns}
+%    \begin{column}{0.5\textwidth}
+%    \begin{figure}
+%    \graphicspath{{figs/}}
+%    \includegraphics[width=0.9\textwidth]{deeda.png}
+%    \caption{DE/EDA算法}
+%    \end{figure}
+%    \end{column}
+%    \begin{column}{0.5\textwidth}
+%    \begin{itemize}
+%    \item DE/EDA是一种结合差分演化和分布估计算法来解决全局连续优化问题。
+%    \item DE/EDA通过利用分布估计算法可以提取种群全局信息和差分演化可以提取种群差分信息的优点，是一种非常具有研究前景的算法。
+%    \end{itemize}
+%    \end{column}
+%    \end{columns}
+%    \end{frame}
+%
+%    \begin{frame}
+%    {\large expensive Local Search}
+%    %演化算法通常对于已经比较好的解一般难以进一步优化，特别是在演化过程的后面的阶段。因此通过利用expensive LS来对于已经收敛的解进行进一步的优化。
+%
+%    \begin{columns}
+%    \begin{column}{0.5\textwidth}
+%    \begin{itemize}
+%    \item 利用$Converage(\theta,t,t_e)$函数来判断解是否收敛
+%    \item expensive LS可以进一步优化解集质量
+%    \end{itemize}
+%    \vspace{2em}
+%    \begin{equation}
+%    \label{expensive_ls_f}
+%    \Delta{f}=\frac{|f^1_{t-50}-f^1_t|}{max\{|f^1_{t-50}|, |f^1_t|\}+\varepsilon}
+%    \end{equation}
+%    \begin{equation}
+%    \label{expensive_ls_x}
+%    \Delta{x}=\frac{|c_{t-50}-c_t|}{max\{c_t, c_{t-50}\}+\varepsilon}
+%    \end{equation}
+%    \end{column}
+%    \begin{column}{0.5\textwidth}
+%    \begin{itemize}
+%    \item $\Delta{f}$表示在近50代中最好的评价值的比率的降低
+%    \item $f^1_t=min_{x\in{pop_t}}$ 是在代数t时最好的目标函数值。
+%    \item $\Delta{x}$表示在近50代中种群覆盖区域的变化比率
+%    \item $c_t=\frac{1}{n}\sum{^n}_{i=1}(max_{x\in{pop}}-min_{x\in{pop}})$，$\varepsilon=1.0\times{10^{-50}}$。
+%    \item 通过将$min\{\Delta{f}, \Delta{x}\}$和给定的阈值$\theta$进行比较，可以判断解是否收敛。为了提高算法的运行效率，每两次expensive LS至少间隔\textbf{50}代。
+%    \end{itemize}
+%    \end{column}
+%    \end{columns}
+%    \end{frame}
 
     \begin{frame}
-    {\large DE/EDA算法}
-    \begin{columns}
-    \begin{column}{0.5\textwidth}
-    \begin{figure}
-    \graphicspath{{figs/}}
-    \includegraphics[width=0.9\textwidth]{deeda.png}
-    \caption{DE/EDA算法}
-    \end{figure}
-    \end{column}
-    \begin{column}{0.5\textwidth}
+    {\large 基于差分采样策略的单目标分布估计算法}
     \begin{itemize}
-    \item DE/EDA是一种结合差分演化和分布估计算法来解决全局连续优化问题。
-    \item DE/EDA通过利用分布估计算法可以提取种群全局信息和差分演化可以提取种群差分信息的优点，是一种非常具有研究前景的算法。
+    \item[]\includegraphics[width=1cm]{figs/q.png} 如何改进分布估计算法的采样
     \end{itemize}
-    \end{column}
-    \end{columns}
     \end{frame}
+    
 
     \begin{frame}
-    {\large expensive Local Search}
-    %演化算法通常对于已经比较好的解一般难以进一步优化，特别是在演化过程的后面的阶段。因此通过利用expensive LS来对于已经收敛的解进行进一步的优化。
-
-    \begin{columns}
-    \begin{column}{0.5\textwidth}
+    {\large 基于差分采样策略的单目标分布估计算法}
     \begin{itemize}
-    \item 利用$Converage(\theta,t,t_e)$函数来判断解是否收敛
-    \item expensive LS可以进一步优化解集质量
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何改进分布估计算法的采样}
+    \item[]\includegraphics[width=0.8cm]{figs/check50.png} 利用差分演化去改进采样
     \end{itemize}
-    \vspace{2em}
-    \begin{equation}
-    \label{expensive_ls_f}
-    \Delta{f}=\frac{|f^1_{t-50}-f^1_t|}{max\{|f^1_{t-50}|, |f^1_t|\}+\varepsilon}
-    \end{equation}
-    \begin{equation}
-    \label{expensive_ls_x}
-    \Delta{x}=\frac{|c_{t-50}-c_t|}{max\{c_t, c_{t-50}\}+\varepsilon}
-    \end{equation}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-    \begin{itemize}
-    \item $\Delta{f}$表示在近50代中最好的评价值的比率的降低
-    \item $f^1_t=min_{x\in{pop_t}}$ 是在代数t时最好的目标函数值。
-    \item $\Delta{x}$表示在近50代中种群覆盖区域的变化比率
-    \item $c_t=\frac{1}{n}\sum{^n}_{i=1}(max_{x\in{pop}}-min_{x\in{pop}})$，$\varepsilon=1.0\times{10^{-50}}$。
-    \item 通过将$min\{\Delta{f}, \Delta{x}\}$和给定的阈值$\theta$进行比较，可以判断解是否收敛。为了提高算法的运行效率，每两次expensive LS至少间隔\textbf{50}代。
-    \end{itemize}
-    \end{column}
-    \end{columns}
     \end{frame}
-
+    
+    \begin{frame}
+    {\large 基于差分采样策略的单目标分布估计算法}
+    \begin{itemize}
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何改进分布估计算法的采样}
+    \item[]\includegraphics[width=0.8cm]{figs/check50.png} 利用差分演化去改进采样
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} 如何进一步提升采样效率
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}
+    {\large 基于差分采样策略的单目标分布估计算法}
+    \begin{itemize}
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何改进分布估计算法的采样}
+    \item[]\includegraphics[width=0.8cm]{figs/check50.png} 利用差分演化去改进采样
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何进一步提升采样效率}
+    \item[]\includegraphics[width=0.8cm]{figs/check50.png} 利用DE-EIG来进行采样，避免种群信息丢失
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}
+    {\large 基于差分采样策略的单目标分布估计算法}
+    \begin{itemize}
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何改进分布估计算法的采样}
+    \item[]\includegraphics[width=0.8cm]{figs/check50.png} 利用差分演化去改进采样
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何进一步提升采样效率}
+    \item[]\includegraphics[width=0.8cm]{figs/check50.png} 利用DE-EIG来进行采样，避免种群信息丢失
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} 如何进一步优化单目标分布估计算法
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}
+    {\large 基于差分采样策略的单目标分布估计算法}
+    \begin{itemize}
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何改进分布估计算法的采样}
+    \item[]\includegraphics[width=0.8cm]{figs/check50.png} 利用差分演化去改进采样
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何进一步提升采样效率}
+    \item[]\includegraphics[width=0.8cm]{figs/check50.png} 利用DE-EIG来进行采样，避免种群信息丢失
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何进一步优化单目标分布估计算法}
+    \item[]\includegraphics[width=0.8cm]{figs/check50.png} 利用expensive Local Search进一步提炼解集质量
+    \end{itemize}
+    \end{frame}
+    
     \begin{frame}
     {\large 基于差分采样策略的单目标分布估计算法}
     \begin{columns}
@@ -293,7 +367,7 @@
     \end{frame}
 
     \subsection{实验分析}
-    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
+    %\frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
 %    \begin{frame}
 %    {\large 实验设置：}
 %    \begin{itemize}
@@ -338,8 +412,8 @@
     {\large 实验结果分析}
     \begin{itemize}
     \item 三个算法在$f6$测试题上都收敛得很早，因此不用折线图展示。
-    \item 和DE/EDA相比，EDA/DE-EIG具有较大的领先，在10个测试题上都具有较大幅度优势（除了$f7,f8$）。
-    \item 和JADE相比，在$f1,f2,f3,f4,f11$ 5个测试题上在下降趋势和最终结果都有明显优势，在$f10,f12,f13$三个测试题上，下降趋势更佳，对于$f5$虽然最终结果不如JADE，但是下降趋势表现得更好，在$f7,f8,f9$ 3个测试题上表现得不如JADE。
+    \item 和DE/EDA相比，EDA/DE-EIG具有较大的领先，在\textbf{10}个测试题上都具有较大幅度优势（除了$f7,f8$）。
+    \item 和JADE相比，在$f1,f2,f3,f4,f11$ \textbf{5}个测试题上在下降趋势和最终结果都有明显优势，在$f10,f12,f13$ \textbf{3}个测试题上，下降趋势更佳，对于$f5$虽然最终结果不如JADE，但是下降趋势表现得更好，在$f7,f8,f9$ 3个测试题上表现得不如JADE。
     \end{itemize}
     \end{frame}
 
@@ -364,8 +438,10 @@
     \end{frame}
 
     \section{基于差分采样的多目标优化}
+    \frame{\tableofcontents[currentsection]}
+    
     \subsection{连续多目标问题}
-    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
+    %\frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
     现实生活中的问题往往具有多个目标，而每个目标之间的最优值往往是冲突的。在本文中，假设多目标问题中的每个问题都是最小化问题，则做出以下定义：
     \begin{equation}
@@ -409,14 +485,23 @@
 %    \end{frame}
 
     \subsection{基于差分采样的多目标分布估计算法}
-    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
+    %\frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
+    {\large RM-MEDA算法}
     \begin{columns}
     \begin{column}{0.5\textwidth}
+%    \begin{figure}
+%    \graphicspath{{figs/}}
+%    \includegraphics[width=1.0\textwidth]{rm-meda-ag.png}
+%    \caption{RM-MEDA}
+%    \end{figure}
+    
     \begin{figure}
     \graphicspath{{figs/}}
-    \includegraphics[width=1.0\textwidth]{rm-meda-ag.png}
-    \caption{RM-MEDA}
+    \centering
+      \includegraphics[width=1.0\columnwidth]{lpca.png}
+      \caption{LPCA划分聚类过程}
+      \label{lpca}
     \end{figure}
     \end{column}
     \begin{column}{0.5\textwidth}
@@ -453,24 +538,24 @@
 %    \end{equation}
 %    \end{frame}
 
-    \begin{frame}
-    LPCA通过最小化以下误差函数的最小值来将种群划分聚类：
-
-    \begin{equation}
-    \label{error}
-    \sum^k_{j=1}\sum_{x\in{C^j}}d(x,A^{m-1}_j)^2
-    \end{equation}
-
-    其中$A^{m-1}_j$是聚类个体的$(m-1)$维主子空间仿射，$d(x,A^{m-1}_j)$是$\overline{x}$ 和它在$A^{m-1}_j$上投影的欧式距离。
-
-    \begin{figure}
-    \graphicspath{{figs/}}
-    \centering
-      \includegraphics[width=0.7\columnwidth]{lpca.png}
-      \caption{LPCA划分聚类过程}
-      \label{lpca}
-    \end{figure}
-    \end{frame}
+%    \begin{frame}
+%    LPCA通过最小化以下误差函数的最小值来将种群划分聚类：
+%
+%    \begin{equation}
+%    \label{error}
+%    \sum^k_{j=1}\sum_{x\in{C^j}}d(x,A^{m-1}_j)^2
+%    \end{equation}
+%
+%    其中$A^{m-1}_j$是聚类个体的$(m-1)$维主子空间仿射，$d(x,A^{m-1}_j)$是$\overline{x}$ 和它在$A^{m-1}_j$上投影的欧式距离。
+%
+%    \begin{figure}
+%    \graphicspath{{figs/}}
+%    \centering
+%      \includegraphics[width=0.7\columnwidth]{lpca.png}
+%      \caption{LPCA划分聚类过程}
+%      \label{lpca}
+%    \end{figure}
+%    \end{frame}
 
     \begin{frame}
     {\large 存在的问题}
@@ -540,7 +625,7 @@
     \end{frame}
 
     \subsection{实验分析}
-    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
+    %\frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
     \begin{frame}
     \begin{figure}
     \centering
@@ -644,7 +729,7 @@
     \end{frame}
 
     \section{总结和展望}
-    \frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
+    %\frame{\tableofcontents[currentsection,currentsubsection,subsectionsonly]}
 
     \begin{frame}
 
