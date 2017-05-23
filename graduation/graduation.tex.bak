@@ -290,7 +290,7 @@
 %    \end{frame}
 
     \begin{frame}
-    {\large 基于差分采样策略的单目标分布估计算法}
+    {\large 主要思路}
     \begin{itemize}
     \item[]\includegraphics[width=1cm]{figs/q.png} 如何改进分布估计算法的采样
     \end{itemize}
@@ -298,7 +298,7 @@
 
 
     \begin{frame}
-    {\large 基于差分采样策略的单目标分布估计算法}
+    {\large 主要思路}
     \begin{itemize}
     \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何改进分布估计算法的采样}
     \item[]\includegraphics[width=0.8cm]{figs/check50.png} 利用差分演化去改进采样
@@ -306,7 +306,7 @@
     \end{frame}
 
     \begin{frame}
-    {\large 基于差分采样策略的单目标分布估计算法}
+    {\large 主要思路}
     \begin{itemize}
     \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何改进分布估计算法的采样}
     \item[]\includegraphics[width=0.8cm]{figs/check50.png} 利用差分演化去改进采样
@@ -315,7 +315,7 @@
     \end{frame}
 
     \begin{frame}
-    {\large 基于差分采样策略的单目标分布估计算法}
+    {\large 主要思路}
     \begin{itemize}
     \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何改进分布估计算法的采样}
     \item[]\includegraphics[width=0.8cm]{figs/check50.png} 利用差分演化去改进采样
@@ -325,7 +325,7 @@
     \end{frame}
 
     \begin{frame}
-    {\large 基于差分采样策略的单目标分布估计算法}
+    {\large 主要思路}
     \begin{itemize}
     \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何改进分布估计算法的采样}
     \item[]\includegraphics[width=0.8cm]{figs/check50.png} 利用差分演化去改进采样
@@ -336,7 +336,7 @@
     \end{frame}
 
     \begin{frame}
-    {\large 基于差分采样策略的单目标分布估计算法}
+    {\large 主要思路}
     \begin{itemize}
     \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何改进分布估计算法的采样}
     \item[]\includegraphics[width=0.8cm]{figs/check50.png} 利用差分演化去改进采样
@@ -348,7 +348,7 @@
     \end{frame}
 
     \begin{frame}
-    {\large 基于差分采样策略的单目标分布估计算法}
+    {\large 基于差分采样的单目标分布估计算法}
     \begin{columns}
     \begin{column}{0.5\textwidth}
     \begin{figure}
@@ -508,7 +508,7 @@
     \begin{itemize}
     \item 根据连续多目标问题以上的特性，基于规律模型的多目标分布算法（RM-MEDA）算法被提出用于解决连续多目标问题。
     \item 在每一次迭代中，通过局部主成分分析（LPCA）在决策空间中的区域建立概率分布模型，然后通过使用拉丁实验设计采样得到新的子代种群。
-    \item RM-MEDA 采用基于非劣排序的方法来挑选个体来产生新的种群。
+    %\item RM-MEDA 采用基于非劣排序的方法来挑选个体来产生新的种群。
     \end{itemize}
     \end{column}
     \end{columns}
@@ -557,26 +557,26 @@
 %    \end{figure}
 %    \end{frame}
 
-    \begin{frame}
-    {\large 存在的问题}
-    \begin{columns}
-    \begin{column}{0.5\textwidth}
-    \begin{figure}
-    \graphicspath{{figs/}}
-    \centering
-      \includegraphics[width=0.9\columnwidth]{pareto.png}
-      \caption{通过缩放比例来覆盖Pareto解集}
-      \label{pareto}
-    \end{figure}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-    \begin{itemize}
-    \item 在每一个聚类之中，$N^k$用来表示聚类中的Pareto解集，$M^k$则用来覆盖每个聚类中的Pareto解集。
-    \item 为了能够覆盖聚类中的Pareto解集，RM-MEDA通过设置一个缩放比例用来覆盖聚类中的Pareto解集。但是这个缩放比例依赖于具体的问题，对于不同的问题，其表现也不尽相同。
-    \end{itemize}
-    \end{column}
-    \end{columns}
-    \end{frame}
+%    \begin{frame}
+%    {\large 存在的问题}
+%    \begin{columns}
+%    \begin{column}{0.5\textwidth}
+%    \begin{figure}
+%    \graphicspath{{figs/}}
+%    \centering
+%      \includegraphics[width=0.9\columnwidth]{pareto.png}
+%      \caption{通过缩放比例来覆盖Pareto解集}
+%      \label{pareto}
+%    \end{figure}
+%    \end{column}
+%    \begin{column}{0.5\textwidth}
+%    \begin{itemize}
+%    \item 在每一个聚类之中，$N^k$用来表示聚类中的Pareto解集，$M^k$则用来覆盖每个聚类中的Pareto解集。
+%    \item 为了能够覆盖聚类中的Pareto解集，RM-MEDA通过设置一个缩放比例用来覆盖聚类中的Pareto解集。但是这个缩放比例依赖于具体的问题，对于不同的问题，其表现也不尽相同。
+%    \end{itemize}
+%    \end{column}
+%    \end{columns}
+%    \end{frame}
     
     \begin{frame}
     {\large 存在的问题}
@@ -632,8 +632,76 @@
     \end{column}
     \end{columns}
     \end{frame}
+    
+    \begin{frame}
+    {\large 存在的问题}
+    \begin{columns}
+    \begin{column}{0.5\textwidth}
+    \begin{figure}
+    \graphicspath{{figs/}}
+    \centering
+      \includegraphics[width=0.9\columnwidth]{pareto.png}
+      \caption{通过缩放比例来覆盖Pareto解集}
+      \label{pareto}
+    \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+    \begin{itemize}
+    \item 在每一个聚类之中，$N^k$用来表示聚类中的Pareto解集，$M^k$则用来覆盖每个聚类中的Pareto解集。
+    \end{itemize}
+    \end{column}
+    \end{columns}
+    \begin{columns}
+    \begin{column}{0.5\textwidth}
+    \begin{itemize}
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何设置一个合适的缩放比例}
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} 如何提升种群的多样性
+    \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+    \begin{itemize}
+    \item[]\includegraphics[width=0.8cm]{figs/check50.png} 通过差分采样策略来进行采样
+    \end{itemize}
+    \end{column}
+    \end{columns}
+    \end{frame}
+    
+    \begin{frame}
+    {\large 存在的问题}
+    \begin{columns}
+    \begin{column}{0.5\textwidth}
+    \begin{figure}
+    \graphicspath{{figs/}}
+    \centering
+      \includegraphics[width=0.9\columnwidth]{pareto.png}
+      \caption{通过缩放比例来覆盖Pareto解集}
+      \label{pareto}
+    \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+    \begin{itemize}
+    \item 在每一个聚类之中，$N^k$用来表示聚类中的Pareto解集，$M^k$则用来覆盖每个聚类中的Pareto解集。
+    \end{itemize}
+    \end{column}
+    \end{columns}
+    \begin{columns}
+    \begin{column}{0.5\textwidth}
+    \begin{itemize}
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何设置一个合适的缩放比例}
+    \item[]\includegraphics[width=0.8cm]{figs/q.png} \sout{如何提升种群的多样性}
+    \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+    \begin{itemize}
+    \item[]\includegraphics[width=0.8cm]{figs/check50.png} 通过差分采样策略来进行采样
+    \item[]\includegraphics[width=0.8cm]{figs/check50.png} 提出一种新型的变异策略来进一步提升种群多样性
+    \end{itemize}
+    \end{column}
+    \end{columns}
+    \end{frame}
 
     \begin{frame}
+    {\large 差分采样策略}
     \begin{columns}
     \begin{column}{0.5\textwidth}
     \begin{figure}
@@ -807,7 +875,7 @@
 
 
 
-    \section*{thx}
+    \section*{}
         \begin{frame}
         \begin{center}
 
