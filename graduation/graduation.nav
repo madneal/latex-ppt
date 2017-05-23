@@ -79,31 +79,34 @@
 \headcommand {\beamer@framepages {28}{28}}
 \headcommand {\slideentry {4}{2}{4}{29/29}{基于差分采样的多目标分布估计算法}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\beamer@subsectionentry {0}{4}{3}{30}{实验分析}}\headcommand {\beamer@subsectionpages {26}{29}}
-\headcommand {\slideentry {4}{3}{1}{30/30}{实验分析}{0}}
+\headcommand {\slideentry {4}{2}{5}{30/30}{基于差分采样的多目标分布估计算法}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {4}{3}{2}{31/31}{实验分析}{0}}
+\headcommand {\slideentry {4}{2}{6}{31/31}{基于差分采样的多目标分布估计算法}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\slideentry {4}{3}{3}{32/32}{实验分析}{0}}
+\headcommand {\slideentry {4}{2}{7}{32/32}{基于差分采样的多目标分布估计算法}{0}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\slideentry {4}{3}{4}{33/33}{实验分析}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{33}{实验分析}}\headcommand {\beamer@subsectionpages {26}{32}}
+\headcommand {\slideentry {4}{3}{1}{33/33}{实验分析}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {4}{3}{5}{34/34}{实验分析}{0}}
+\headcommand {\slideentry {4}{3}{2}{34/34}{实验分析}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\sectionentry {5}{总结和展望}{35}{总结和展望}{0}}
-\headcommand {\beamer@sectionpages {23}{34}}
-\headcommand {\beamer@subsectionpages {30}{34}}
-\headcommand {\slideentry {5}{0}{6}{35/35}{}{0}}
+\headcommand {\slideentry {4}{3}{3}{35/35}{实验分析}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\slideentry {5}{0}{7}{36/36}{}{0}}
+\headcommand {\slideentry {4}{3}{4}{36/36}{实验分析}{0}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\sectionentry {6}{thx}{37}{thx}{0}}
-\headcommand {\beamer@sectionpages {35}{36}}
-\headcommand {\beamer@subsectionpages {35}{36}}
-\headcommand {\slideentry {6}{0}{8}{37/37}{}{0}}
+\headcommand {\slideentry {4}{3}{5}{37/37}{实验分析}{0}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\beamer@partpages {1}{37}}
-\headcommand {\beamer@subsectionpages {1}{37}}
-\headcommand {\beamer@sectionpages {1}{37}}
-\headcommand {\beamer@documentpages {37}}
-\headcommand {\def \inserttotalframenumber {37}}
+\headcommand {\sectionentry {5}{总结和展望}{38}{总结和展望}{0}}
+\headcommand {\beamer@sectionpages {23}{37}}
+\headcommand {\beamer@subsectionpages {33}{37}}
+\headcommand {\slideentry {5}{0}{6}{38/38}{}{0}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\slideentry {5}{0}{7}{39/39}{}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\slideentry {6}{0}{8}{40/40}{}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\beamer@partpages {1}{40}}
+\headcommand {\beamer@subsectionpages {1}{40}}
+\headcommand {\beamer@sectionpages {1}{40}}
+\headcommand {\beamer@documentpages {40}}
+\headcommand {\def \inserttotalframenumber {40}}
